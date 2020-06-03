@@ -1,9 +1,81 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Metadata - took a wild stab at the team number for the author -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Theme park tickets and offers">
+        <meta name="keywords" content="Theme, Park, Tickets, Prices, Offers">
+        <meta name="author" content="Web dev team 16?">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- Page title -->
+        <title>Tickets</title>
+
+        <!-- Base url. Gonna put it in but comment it out. -->
+        <base href="http://localhost/">
+
+        <!-- external stylesheet -->
+        <link rel="stylesheet" href="stylesheets/style.css">
+        
+        <!-- Embedded styles -->
+        <style>
+            /* Embedded styles go in here */
+        </style>
+
+        <!-- External JS Script -->
+        <script type="text/javascript" src=""></script>
+
+        <!-- Embedded script space -->
+        <script>
+            //Space for any embedded scripting
+        </script>
     </head>
     <body>
-        TEST
+        <!-- Header section to contain the main park logo along with Park name and accompanying text in large print -->
+        <header>
+            <!-- Inside divs for east grid layout later in css -->
+            <div id="parkLogoDiv" class="park-logo-div">
+                <!-- Image to be placed in assets folder and referenced properly -->
+                <img src="assets/blankasset" class="park-logo-img">
+            </div> 
+            <div id="parkTitlesDiv" class="park-titles-div">
+                <h1>Theme Park Name</h1>
+                <ht>Theme park motto/tagline</ht>
+            </div>
+        </header>
+        
+        <!-- Links to Social Media - May be beter in a span? Or inside the header?-->
+        <div id="socailMediaLinksDiv" class="socail-media-links">
+            <!-- Not sure if we want images as links or just plain text. I think image links will be better. -->
+            <nav id="socailMediaLinks" class="socail-media-links">
+                <a href="https://wwww.facebook.com">facebook</a> |
+                <a href="https://wwww.twitter.com">Twitter</a> |
+                <a href="https://wwww.youtube.com">YouTube</a> |
+            </nav>
+        </div>
+
+        <!-- Page Title -->
+        <div id="titleDiv" class="title-div">
+            <h1>Tickets! and Special Offers!</h1>
+        </div>
+
+        <!-- Specail offers. In mosaic format -->
+        <div id="specialOffersDiv" class="special-offers-div">
+            <!-- Again for grid layout we have nested spans so less space between -->
+            <span>
+                <!-- Not sure if we want a button or image or what in here -->
+            </span>
+
+            <!-- For smaller images next to this one -->
+            <span>
+                <!-- for nested grids - Two Smaller offers -->
+                <span>
+                    <!-- Small Offer one -->
+                </span>
+                <span>
+                    <!-- Small offer two -->
+                </span>
+            </span>
+        </div>
     </body>
 </html>
