@@ -1,9 +1,88 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
 
-    </head>
-    <body>
-        
-    </body>
+<head>
+    <!-- Metadata - took a wild stab at the team number for the author -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Theme park website">
+    <meta name="keywords" content="Theme, Park, Tickets, Prices, Offers">
+    <meta name="author" content="Web dev team 16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
+    <title>Theme Park | Homepage</title>
+</head>
+
+<body>
+
+
+<!-- Martino's part, rides section and footer -->
+
+<!-- The section content is homogenous: rides -->
+<section id="rides">
+
+    <!-- It's important/useful to put headings even though one decides later to set it as non display with CSS -->
+    <h2>Rides</h2>
+
+    <!-- There is a first highlighted ride -->
+    <div id="main-ride">
+        <!-- I'll avoid to put images as we'll probably put it as image backgrounds later with CSS -->
+        <h3>Main ride</h3>
+        <p>A great ride we want to highlight, description</p>
+    </div>
+
+    <!-- All other rides are here -->
+    <div id="other-rides">
+        <!-- Assign same class to each ride divs as they'll be styled uniformly -->
+        <div class="ride">
+            <!-- Still, using heading should make the website more indexable and accessible -->
+            <h3>KIDS</h3>
+            <p>Kids rides description</p>
+        </div>
+        <div class="ride">
+            <h3>ADULTS</h3>
+            <p>Adults rides desription</p>
+        </div>
+        <div class="ride">
+            <h3>ROLLER COASTER</h3>
+            <p>Roller coaster description</p>
+        </div>
+        <div class="ride">
+            <h3>GAMES</h3>
+            <p>Games description</p>
+        </div>
+    </div>
+
+    <!-- This navbar toolbar will be repeated thorugh the page, I assign it a class so that style will be uniform -->
+    <nav class="booking-cta">
+
+    </nav>
+
+</section>
+
+<footer>
+
+    <nav>
+
+        <ul>
+            <li>
+                <a href="plan-your-visit.html">PLAN YOUT VISIT</a>
+            </li>
+            <li>
+                <a href="tickets.html">TICKETS</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <!-- Small textual box to put info (copyright, credits etc.)-->
+    <div id="info">
+        <p>Web dev team 16 did it</p>
+    </div>
+
+</footer>
+
+</body>
+
+</body>
 </html>
