@@ -3,9 +3,12 @@
     <head>
         <!-- Metadata - took a wild stab at the team number for the author -->
         <meta charset="UTF-8">
+        <!-- for Search engine optimization -->
         <meta name="description" content="Theme park tickets and offers">
         <meta name="keywords" content="Theme, Park, Tickets, Prices, Offers">
         <meta name="author" content="Web dev team 16">
+
+        <!-- screen layout -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Page title -->
@@ -40,7 +43,7 @@
             </div> 
             <div id="parkTitlesDiv" class="park-titles-div">
                 <h1>Theme Park Name</h1>
-                <ht>Theme park motto/tagline</ht>
+                <h2>Theme park motto/tagline</h2>
             </div>
         </header>
         
@@ -50,13 +53,15 @@
             <nav id="socialMediaLinks" class="social-media-links">
                 <a href="https://www.facebook.com">Facebook</a> |
                 <a href="https://www.twitter.com">Twitter</a> |
-                <a href="https://www.youtube.com">YouTube</a> |
+                <a href="https://instagram.com">Instagram</a> |
+                <a href="https://www.youtube.com">YouTube</a>
             </nav>
         </div>
 
         <!-- Page Title -->
         <div id="titleDiv" class="title-div">
             <h1>Tickets! and Special Offers!</h1>
+            <!-- However we're formatting the content to go in this section can go in here -->
         </div>
 
         <!-- Specail offers. In mosaic format -->
@@ -79,132 +84,130 @@
         </div>
         
         <!-- this is where i start (YE KO MYIINT) -->
-<div id="ticket descriptions" class="tickets-items-div">
-<!-- Since this looks like a table with different segment, I will work this in as table element -->
-     <table id="tblOne">
-         <style>
-             table, th, td {
-                 padding: 15px;
-                 border-collapse: collapse;
-             }
-             td,th{
-                 border: 1px solid #dddddd;
-                 text-align : center;
-             }
-         </style>
-	<tr>
-        <td><h2>TICKET NAME 1</h2></td>  
-	</tr>
-         <tr>
-        <td>
-            Ticket 1 Descriptions
-            <ul>
-            <li>inclusion 1</li>
-            <li>inclusion 2</li>
-            <li>...</li>
-            </ul>
-        </td>
-         </tr>
-<tr>
-    <td>Ticket 1 price <a href="#pass1section"> read more </a>
-        </td>
-         </tr>
-</table>
-     <table id="tblTwo">
-	<tr>
-		<td><h2>TICKET NAME 2</h2></td> 
-         <tr>
-        <td>
-            Ticket 2 Descriptions
-            <ul>
-            <li>inclusion 1</li>
-            <li>inclusion 2</li>
-            <li>...</li>
-            </ul>
-        </td></tr></tr>
-   <tr>
-    <td>Ticket 2 price <a href="#pass2section"> read more </a>
-        </td></tr>    
-</table>  
-     <table id="tblThree">
-	<tr>
-		<td><h2>TICKET NAME 3</h2></td> 
-         <tr>
-        <td>
-            Ticket 3 Descriptions
-            <ul>
-            <li>inclusion 1</li>
-            <li>inclusion 2</li>
-            <li>...</li>
-            </ul>
-        </td> </tr></tr>
-       <tr>
-        <td>Ticket 3 price <a href="#pass3section"> read more </a>
-        </td></tr>
-        </table>     
+        <div id="ticket descriptions" class="tickets-items-div">
+        <!-- Since this looks like a table with different segment, I will work this in as table element -->
+            <table id="tblOne">
+                <tr>
+                    <th>TICKET NAME 1</th>  
+                </tr>
+                <tr>
+                    <td>
+                        Ticket 1 Descriptions
+                        <ul>
+                        <li>inclusion 1</li>
+                        <li>inclusion 2</li>
+                        <li>...</li>
+                        </ul>
+                    </td>
+                </tr>   
+                <tr>
+                    <td>Ticket 1 price <a href="#pass1section"> read more </a></td>
+                </tr>
+            </table>
+            <table id="tblTwo">
+                <tr>
+                    <th>TICKET NAME 2</th>
+                </tr> 
+                <tr>
+                    <td>
+                        Ticket 2 Descriptions
+                        <ul>
+                        <li>inclusion 1</li>
+                        <li>inclusion 2</li>
+                        <li>...</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ticket 2 price <a href="#pass2section"> read more </a></td>
+                </tr>    
+            </table>  
+            <table id="tblThree">
+                <tr>
+                    <th>TICKET NAME 3</th> 
+                </tr>
+                <tr>
+                    <td>
+                        Ticket 3 Descriptions
+                        <ul>
+                        <li>inclusion 1</li>
+                        <li>inclusion 2</li>
+                        <li>...</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ticket 3 price <a href="#pass3section"> read more </a></td>
+                </tr>
+            </table>     
         </div>     
 
-<div>
-<section id="pass1section">
-<p>This section is for pass 1 section.
-    </p>    
-</section>
-</div>
+        <div>
+            <section id="pass1section">
+                <p>This section is for pass 1 section.</p>    
+            </section>
+        </div>
 
-<div>
-<section id="pass2section">
-    <p>This section is for pass 2 section.
-    </p>
-    </section>
-</div>
+        <div>
+            <section id="pass2section">
+                <p>This section is for pass 2 section.</p>
+            </section>
+        </div>
 
-<div>
-<section id="pass3section">
-    <p>this section is for pass 3 section</p>
-    </section></div>
+        <div>
+            <section id="pass3section">
+                <p>this section is for pass 3 section</p>
+            </section>
+        </div>
 
 
-<footer>
-<div id="navlinks">
-    <table id="section">
-        <th>
-            <td>Sections</td>
-        </th>
-            <td><ul>
-            <nav id="sectionsfooter" class="section-links">
-                   <li> <a href="index.html">Home</a> </li>
-                   <li> <a href="planyourvisit.html">Plan Your Visit</a> </li>
-            </nav>
-            </ul></td>
-    </table>
-    
-    <table id="contacts">
-        <th>
-            <td>Contact us</td>
-        </th>
-            <td>
-                    <div id="fpcontactInformation">
-                <ul>
-                    <li id = "email"style="text-align:left;"><a href="email.com">Email:</a></li>
-                    <li id = "contactnumber"style="text-align:left;">Contact Number:</li>
-                    <li id = "fax"style="text-align:left;">Fax:</li>
-                </ul></div></td>     
-    </table>
-    
-    <table id="socialmedia">
-        <th>
-            <td>Follow us on</td>
-        </th>
-        <td><ul>
-            <nav id="socialmediafooter" class="social-media-links">
-                   <li> <a href="https://www.facebook.com">Facebook</a> </li>
-                   <li> <a href="https://www.twitter.com">Twitter</a> </li>
-                   <li> <a href="https://www.instagram.com">Instagram</a> </li>
-                   <li> <a href="https://www.instagram.com">YouTube</a> </li>
-            </nav>
-            </ul></td>
-    </table>
-    </div>
-</footer>
-</body>
+        <footer>
+            <div id="navlinks">
+                <table id="section">
+                    <th>
+                        <td>Sections</td>
+                    </th>
+                        <td>
+                            <ul>
+                                <nav id="sectionsfooter" class="section-links">
+                                    <li> <a href="index.html">Home</a> </li>
+                                    <li> <a href="planyourvisit.html">Plan Your Visit</a> </li>
+                                </nav>
+                            </ul>
+                        </td>
+                </table>
+                
+                <table id="contacts">
+                    <th>
+                        <td>Contact us</td>
+                    </th>
+                        <td>
+                            <div id="fpcontactInformation">
+                                <ul>
+                                    <li id = "email"style="text-align:left;"><a href="email.com">Email:</a></li>
+                                    <li id = "contactnumber"style="text-align:left;">Contact Number:</li>
+                                    <li id = "fax"style="text-align:left;">Fax:</li>
+                                </ul>
+                            </div>
+                        </td>     
+                </table>
+                
+                <table id="socialmedia">
+                    <th>
+                        <td>Follow us on</td>
+                    </th>
+                    <td>
+                        <ul>
+                            <nav id="socialmediafooter" class="social-media-links">
+                                <li> <a href="https://www.facebook.com">Facebook</a> </li>
+                                <li> <a href="https://www.twitter.com">Twitter</a> </li>
+                                <li> <a href="https://www.instagram.com">Instagram</a> </li>
+                                <li> <a href="https://www.youtube.com">YouTube</a> </li>
+                            </nav>
+                        </ul>
+                    </td>
+                </table>
+            </div>
+        </footer>
+    </body>
 </html>
