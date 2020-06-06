@@ -1,9 +1,171 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Metadata - took a wild stab at the team number for the author -->
+        <meta charset="UTF-8">
+        <!-- for Search engine optimization -->
+        <meta name="description" content="Theme park tickets and offers">
+        <meta name="keywords" content="Theme, Park, Tickets, Prices, Offers">
+        <meta name="author" content="Web dev team 16">
 
+        <!-- screen layout -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Page title -->
+        <title>Home page</title>
+
+        <!-- Base url. Gonna put it in but comment it out. -->
+        <!--<base href="http://localhost/"> -->
+
+        <!-- external stylesheet -->
+        <link rel="stylesheet" href="stylesheets/style.css">
+        
+        <!-- Embedded styles -->
+        <style>
+            /* Embedded styles go in here */
+        </style>
+
+        <!-- External JS Script -->
+        <script type="text/javascript" src=""></script>
+
+        <!-- Embedded script space -->
+        <script>
+            //Space for any embedded scripting
+        </script>
     </head>
     <body>
-        
+        <!-- This section contains the header & its information -->
+        <header>
+            <!-- Inside divs for east grid layout later in css -->
+            <div id="parkLogoDiv" class="park-logo-div">
+                <!-- Image to be placed in assets folder and referenced properly -->
+                <a href="index.html">
+                    <img src="assets/blankasset" class="park-logo-img">
+                </a>
+            </div> 
+            <div id="parkTitlesDiv" class="park-titles-div">
+                <h1>Theme Park Name</h1>
+                <h2>Theme park motto/tagline</h2>
+            </div>
+        </header>
+
+        <!-- Links to Social Media - May be beter in a span? Or inside the header?-->
+        <section id="socialMediaLinksDiv" class="social-media-links">
+            <!-- Not sure if we want images as links or just plain text. I think image links will be better. -->
+            <nav id="socialMediaLinks" class="social-media-links">
+                <a href="https://www.facebook.com">Facebook</a> |
+                <a href="https://www.twitter.com">Twitter</a> |
+                <a href="https://instagram.com">Instagram</a> |
+                <a href="https://www.youtube.com">YouTube</a>
+            </nav>
+        </section>
+
+        <section id="pageTitle">
+            <h1>Plan your visit</h1>
+            <!-- shortcut links to different page sections -->
+        </section>
+
+        <section id="transportation">
+            <h3>How to get to us</h3>
+            <div id="busTransport">
+                <!-- Directions for travel by public transport -->
+                <!-- links to bus time tables -->
+                <ul>
+                    <li><a href="bus timetable">bus no.</a></li>
+                    <li><a href="bus timetable">bus no.</a></li>
+                    <li><a href="bus timetable">bus no.</a></li>
+                </ul>
+            </div>
+            <div id="trainTransport">
+                <!-- Directions for travel by train -->
+                <ul>
+                    <li>Travel directions</li>
+                    <li>Travel directions</li>
+                    <li>Travel directions</li>
+                </ul>
+            </div>
+            <div id="carTransport">
+                <!-- From the north -->
+                <ul>
+                    <li>Travel directions</li>
+                    <li>Travel directions</li>
+                    <li>Travel directions</li>
+                </ul>
+                <!-- From the south -->
+                <ul>
+                    <li>Travel directions</li>
+                    <li>Travel directions</li>
+                    <li>Travel directions</li>
+                </ul>                
+            </div>
+            <div id="map">
+                <img src="mapfromtrainstation">
+            </div>
+        </section>
+
+        <section id="themeParkMap">
+            <h3>Map of the park</h3>
+            <img src="themeParkMap">
+        </section>
+
+        <section id="accomodation">
+            <h3>Where to sleep</h3>
+            <nav>
+                <ul>
+                    <li><a>Hotel 1</a></li>
+                    <li><a>Hotel 2</a></li>
+                    <li><a>Hotel 3</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="dining"></section>
+            <h3>Where to eat</h3>
+            <nav>
+                <ul>
+                    <li><a>Restaraunt 1</a></li>
+                    <li><a>Restaraunt 2</a></li>
+                    <li><a>Restaraunt 3</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="specialNeeds">
+            <h3>Special needs access</h3>
+            <p>Description of the parks special needs access</p>
+        </section>
+
+        <footer>
+            <div id="section">
+                <h3>Sections</h3>
+                <nav id="sectionsfooter" class="section-links"></nav>
+                    <ul>
+                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href="planyourvisit.html">Plan Your Visit</a> </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="contacts">
+                <h3>Contact us</h3>
+                <nav id="fpcontactInformation">
+                    <ul>
+                        <li id = "email"style="text-align:left;"><a href="email.com">Email:</a></li>
+                        <li id = "contactnumber"style="text-align:left;">Contact Number:</li>
+                        <li id = "fax"style="text-align:left;">Fax:</li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="socialmedia">
+                <h3>Follow us on</h3>
+                <nav id="socialmediafooter" class="social-media-links">
+                    <ul>
+                        <li> <a href="https://www.facebook.com">Facebook</a> </li>
+                        <li> <a href="https://www.twitter.com">Twitter</a> </li>
+                        <li> <a href="https://www.instagram.com">Instagram</a> </li>
+                        <li> <a href="https://www.youtube.com">YouTube</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer> 
     </body>
 </html>
