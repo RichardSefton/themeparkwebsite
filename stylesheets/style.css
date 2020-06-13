@@ -1,6 +1,6 @@
 .main-template {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: white;
 
     background-color: #006CB6;
 
@@ -12,6 +12,7 @@
 
 .main-template > section {
     background-color: #F8C706;
+    color: black;
 }
 
 .main-template > header {
