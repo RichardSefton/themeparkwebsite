@@ -1,0 +1,9 @@
+<IMAGES REFRENCE>
+Logo - Amusement_Park 
+	link: https://thumbs.dreamstime.com/b/amusement-park-vector-11464497.jpg
+
+Event - Amusement_Park
+	link: https://www.flickr.com/photos/gml527/3722287234
+
+Ride - Amusement_Park
+	link: https://www.retailnews.asia/genting-sues-the-walt-disney-co-for-cancelled-theme-park-contract/carousel-theme-park-ftr/
