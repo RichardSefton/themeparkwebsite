@@ -1,9 +1,13 @@
 <IMAGES REFRENCE>
 Logo - Amusement_Park 
 	link: https://thumbs.dreamstime.com/b/amusement-park-vector-11464497.jpg
+waterslide.jpg - https://www.thenational.ae/image/policy:1.618526:1502362324/image/jpeg.jpg?$p=79ddad7&w=640&$w=b1689f7
 
 Event - Amusement_Park
 	link: https://www.flickr.com/photos/gml527/3722287234
 
 Ride - Amusement_Park
 	link: https://www.retailnews.asia/genting-sues-the-walt-disney-co-for-cancelled-theme-park-contract/carousel-theme-park-ftr/
+fruit.jpg - https://www.medicalnewstoday.com/articles/308796
+
+halloween.jpg https://www.liverpool-one.com/events/halloween-spooktacular/

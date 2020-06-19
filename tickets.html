@@ -35,21 +35,47 @@
     </head>
     <body class="main-template">
         <!-- Header section to contain the main park logo along with Park name and accompanying text in large print -->
+        <style>
+            .park-logo-img {
+                height: 100px !important;
+                width: 100px !important;
+            }
+
+            .park-titles-div > h1 {
+                font-size: 36pt;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+            }
+
+            .park-titles-div > h2 {
+                font-size: 24pt;
+                font-family: Arial, Helvetica, sans-serif;
+                columns: white;
+            }
+        </style>
         <header>
             <!-- Inside divs for east grid layout later in css -->
             <div id="parkLogoDiv" class="park-logo-div">
                 <!-- Image to be placed in assets folder and referenced properly -->
                 <a href="index.html">
-                    <img src="assets/blankasset" class="park-logo-img">
+                    <img src="assets/site-logo.png" class="park-logo-img" alt="Site Logo">
                 </a>
             </div> 
             <div id="parkTitlesDiv" class="park-titles-div">
-                <h1>Theme Park Name</h1>
-                <h2>Theme park motto/tagline</h2>
+                <h1>Theme Park #16</h1>
+                <h2>There are better places for you to be</h2>
             </div>
         </header>
         
         <!-- Links to Social Media - May be beter in a span? Or inside the header?-->
+        <style>
+            .social-media-links > a {
+                font-size: 22pt;
+                font-weight: bold;
+
+
+            }
+        </style>
         <section id="socialMediaLinksDiv" class="social-media-links">
             <!-- Not sure if we want images as links or just plain text. I think image links will be better. -->
             <nav id="socialMediaLinks" class="social-media-links">
@@ -61,26 +87,80 @@
         </section>
 
         <!-- Page Title -->
+        <style>
+            .title-div > h1 {
+                font-size: 30pt;
+            }
+
+            .title-div > p:nth-child(odd) {
+                background-color: #D01114;
+                color: white;
+                font-size: 16pt;
+            }
+            .title-div > p:nth-child(even) {
+                background-color: #006CB6;
+                color: white;
+                font-size: 15pt;
+            }
+        </style>
         <section id="titleDiv" class="title-div">
-            <h1>Tickets! and Special Offers!</h1>
+            <h1>Tickets and Special Offers!</h1>
             <!-- However we're formatting the content to go in this section can go in here -->
+            <p>Please see below for our latest and greatest deals we have on offer.</p>
+            <p>
+                All our deals are specially crafted so we can milk the most mo... I mean so you
+                can feel like you have acheived value for money
+            </p>
+            <p>
+                You can spend time browsing this site but only by visiting the park will you get to
+                experience our "exotic" animals (its just Fred in a meercat costume). Or pay twice the
+                money for half the food. Try out our ethos of more money does not guarantee higer value.
+            </p>
+            <p>
+                So come on. Browse our deals. Find the best one that works for you and have a dissapointing 
+                day at our park!!
+            </p>
         </section>
 
+        <style>
+            .main-offer-image {
+                width: 50% !important
+            }
+
+            .special-offers-section > h1 {
+                font-size: 18pt;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .special-offers-section > h4 {
+                font-size: 18pt;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .sub-offer-image {
+                width: 25% !important
+            }
+        </style>
         <!-- Specail offers. In mosaic format -->
-        <section id="specialOffersDiv" class="special-offers-div">
+        <section id="specialOffersDiv" class="special-offers-section">
             <!-- Again for grid layout we have nested spans so less space between -->
             <span>
-                <!-- Not sure if we want a button or image or what in here -->
+               <h1>Half price water slides in December!</h1>
+               <img src="assets/waterslide.jpg" class="main-offer-image" alt="waterslide image">
             </span>
 
             <!-- For smaller images next to this one -->
-            <span>
+            <span class="secondary-offers">
                 <!-- for nested grids - Two Smaller offers -->
                 <span>
                     <!-- Small Offer one -->
+                    <h4>Free fruit for kids with family tickets!</h4>
+                    <img src="assets/fruit.jpg" class="sub-offer-image" alt="Fruit">
                 </span>
                 <span>
                     <!-- Small offer two -->
+                    <h4>Spooky Halloween Festival</h4>
+                    <img src="assets/halloween.jpg" class="sub-offer-image" alt="halloween">
                 </span>
             </span>
         </section>
