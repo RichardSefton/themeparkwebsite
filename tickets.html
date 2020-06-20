@@ -42,7 +42,7 @@
             }
 
             .park-titles-div > h1 {
-                font-size: 36pt;
+                font-size: 33pt;
                 font-family: Arial, Helvetica, sans-serif;
                 color: white;
             }
@@ -72,8 +72,6 @@
             .social-media-links > a {
                 font-size: 22pt;
                 font-weight: bold;
-
-
             }
         </style>
         <section id="socialMediaLinksDiv" class="social-media-links">
@@ -163,102 +161,132 @@
                     <img src="assets/halloween.jpg" class="sub-offer-image" alt="halloween">
                 </span>
             </span>
-        </section>
+        </section>      
+        
+        
         
         <!-- this is where i start (YE KO MYIINT) -->
-        <section id="ticket descriptions" class="tickets-items-div">
-        <!-- Since this looks like a table with different segment, I will work this in as table element -->
-            <section id="tblOne">
-                <div>
-                    <h3>TICKET NAME 1</h3>  
+        
+        <style> 
+            
+             .tickets-items-div > h3 
+            {
+                font-size : 25pt;
+                text-align : center;
+            }
+            .ticket-type > h4 
+            {
+                font-size : 15pt;
+            } 
+            li{
+                font-size : 15pt;
+                
+            }
+            .ticket-image 
+            {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            .footer > h3
+            {
+                text-align : center;
+                color:black;
+                font-size:25pt;
+            }
+            .social-media-links > span
+            {
+
+                margin-left:40%;
+                margin-right: auto;
+                width: 7%;
+            }
+        </style>
+        
+        <section id="ticket descriptions" class=tickets>
+            <section id="tblOne" style="border:1px solid; background-color:#006CB6;">
+                <div id=onedayticket class="tickets-items-div">
+                    <h3>One Day Ticket</h3>  
                 </div>
-                <div>
-                    <h4>Ticket 1 Descriptions</h4>
-                    <ul>
-                        <li>inclusion 1</li>
-                        <li>inclusion 2</li>
-                        <li>...</li>div
+                <span>
+                <img src="assets/onedayticket.jpg" width = "50" height = "200" class="ticket-image" alt="onedayticket">
+                </span>
+                <div id="onedayticket" class="ticket-type">
+                    <h4>Regular-priced ticket is valid for one day, on the selected date of visit</h4>
+                    <ul> 
+                        <li>Inclusive of all rides and attractions</li>
+                        <li>Non-inclusive of the privilege to take pictures with cosplayers and characters.</li>
+                        <li>Adult(Age 13-59) - US$50 </li>
+                        <li>Child(Age 4-12) - US$30 </li>
+                        <li>Senior(Age 60 and above) - US$20 </li>
                     </ul>   
                 </div>   
-                <div>
-                    <em>Ticket 1 price <a href="#pass1section"> read more </a></em>
-                </div>
             </section>
-            <section id="tblTwo">
-                <div>
-                    <h3>TICKET NAME 2</h3>
+            <section id="tblTwo"  style="border:1px solid; background-color:#F8C706;">
+                <div id=studentpass class="tickets-items-div">
+                    <h3>Student Pass</h3>
                 </div> 
-                <div>
-                    <h4>Ticket 2 Descriptions</h4>
+                <span>
+                 <img src="assets/studentpass.jpg" width = "50" height = "250" class="ticket-image" alt="studentpass">
+                </span>
+                <div id="studentpass" class="ticket-type">
+                    <h4>6 months of unlimited admission for students</h4>
                     <ul>
-                        <li>inclusion 1</li>
-                        <li>inclusion 2</li>
-                        <li>...</li>
+                        <li>Inclusive of all rides, attractions and privilege to take photos with cosplayers and characters</li>
+                        <li>6 months expiry date (starts from date of purchase)</li>
+                        <li>Price - US$80</li>
+                        <b><li><a style="color:red; font-style:italic; background-color:white;"> NOTE: Students must show their student identification card and the student pass at the entrance.</a></li></b>
                     </ul>
-                </div>
-                <div>
-                    <em>Ticket 2 price <a href="#pass2section"> read more </a></em>
-                </div>    
+                </div>   
             </section>  
-            <section id="tblThree">
-                <div>
-                    <h3>TICKET NAME 3</h3> 
+            <section id="tblThree"  style="border:1px solid; background-color:#006CB6;">
+                <div id=annualpass class="tickets-items-div">>
+                    <h3>Annual Pass</h3> 
                 </div>
-                <tr>
-                    <h4>Ticket 3 Descriptions</h4>
+                <span>
+                 <img src="assets/annualpass.jpg" width = "50" height = "250" class="ticket-image" alt="studentpass">
+                </span>
+                <div id="seasonpass" class="ticket-type">
+                    <h4>Twelve (12) months of unlimited admission!!!</h4>
                     <ul>
-                        <li>inclusion 1</li>
-                        <li>inclusion 2</li>
-                        <li>...</li>
+                        <li>Inclusive of all rides, attractions and privilege to take photos with cosplayers and characters</li>
+                        <li>12 months expiry date (starts from date of purchase)</li>
+                        <li>Adult(Age 13-59) - US$200 </li>
+                        <li>Child(Age 4-12) - US$120 </li>
+                        <li>Senior(Age 60 and above) - US$80 </li>
                     </ul>
-                </div>
-                <div>
-                    <em>Ticket 3 price <a href="#pass3section"> read more </a></em>
                 </div>
             </section>     
         </section>     
-
-        <section id="pass1section">
-            <p>This section is for pass 1 section.</p>    
-        </section>
-
-        <section id="pass2section">
-            <p>This section is for pass 2 section.</p>
-        </section>
-
-        <section id="pass3section">
-            <p>this section is for pass 3 section</p>
-        </section>
-
+        
         <footer>
-            <div id="section">
+            <div id="section" class="footer" style="border:1px solid; background-color:#F8C706;">
                 <h3>Sections</h3>
                 <nav id="sectionsfooter" class="section-links"></nav>
                     <ul>
-                        <li> <a href="index.html">Home</a> </li>
-                        <li> <a href="plan-your-visit.html">Plan Your Visit</a> </li>
+                        <li> <a href="index.html" style="background-color:white;">Home</a> </li>
+                        <li> <a href="plan-your-visit.html" style="background-color:white;">Plan Your Visit</a> </li>
                     </ul>
                 </nav>
             </div>
-            <div id="contacts">
+            <div id="contacts" class="footer" style="border:1px solid; background-color:#006CB6;">
                 <h3>Contact us</h3>
                 <nav id="fpcontactInformation">
                     <ul>
-                        <li id = "email"style="text-align:left;"><a href="email.com">Email:</a></li>
-                        <li id = "contactnumber"style="text-align:left;">Contact Number:</li>
-                        <li id = "fax"style="text-align:left;">Fax:</li>
+                        <li id = "email"style="text-align:left;">Email : <a href="https://www.gmail.com" style="background-color:white;">Happyfuntime-team16@gmail.com</a></li>
+                        <li id = "contactnumber"style="text-align:left;">Contact Number : 012-3456789</li>
+                        <li id = "fax"style="text-align:left;">Fax : 012-1231231</li>
                     </ul>
                 </nav>
             </div>
-            <div id="socialmedia">
+            <div id="socialmedia" class="footer" style="border:1px solid; background-color:#F8C706;">
                 <h3>Follow us on</h3>
                 <nav id="socialmediafooter" class="social-media-links">
-                    <ul>
-                        <li> <a href="https://www.facebook.com">Facebook</a> </li>
-                        <li> <a href="https://www.twitter.com">Twitter</a> </li>
-                        <li> <a href="https://www.instagram.com">Instagram</a> </li>
-                        <li> <a href="https://www.youtube.com">YouTube</a> </li>
-                    </ul>
+                        <span> <a href="https://www.facebook.com"><img src="assets/facebook.png" width = "50" height = "50"></a>
+                        <a href="https://www.twitter.com"><img src="assets/twitter.png" width = "50" height = "50"></a>
+                        <a href="https://www.instagram.com"><img src="assets/instagram.png" width = "50" height = "50"></a>
+                         <a href="https://www.youtube.com"><img src="assets/youtube.png" width = "50" height = "50"></a> </span>
                 </nav>
             </div>
         </footer>
