@@ -1,182 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Metadata - took a wild stab at the team number for the author -->
-        <meta charset="UTF-8">
-        <!-- for Search engine optimization -->
-        <meta name="description" content="Theme park tickets and offers">
-        <meta name="keywords" content="Theme, Park, Tickets, Prices, Offers">
-        <meta name="author" content="Web dev team 16">
+<head>
+    <!-- Metadata - took a wild stab at the team number for the author -->
+    <meta charset="UTF-8">
+    <!-- for Search engine optimization -->
+    <meta name="description" content="Theme park tickets and offers">
+    <meta name="keywords" content="Theme, Park, Tickets, Prices, Offers">
+    <meta name="author" content="Web dev team 16">
 
-        <!-- screen layout -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- screen layout -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Page title -->
-        <title>Home page</title>
+    <!-- Page title -->
+    <title>Home page</title>
 
-        <!-- Base url. Gonna put it in but comment it out. -->
-        <!--<base href="http://localhost/"> -->
+    <!-- Base url. Gonna put it in but comment it out. -->
+    <!--<base href="http://localhost/"> -->
 
-        <!-- external stylesheet -->
-        <link rel="stylesheet" href="stylesheets/style.css">
-        
-        <!-- Embedded styles -->
-        <style>
-            /* Embedded styles go in here */
-        </style>
+    <!-- external stylesheet -->
+    <link rel="stylesheet" href="stylesheets/style.css">
 
-        <!-- External JS Script -->
-        <script type="text/javascript" src=""></script>
+    <!-- Embedded styles -->
+    <style>
+        /* Embedded styles go in here */
+    </style>
 
-        <!-- Embedded script space -->
-        <script>
-            //Space for any embedded scripting
-        </script>
-    </head>
-    <body>
-        <!-- Anne's part - header, highlights, links and events -->
-        <!-- This section contains the header & its information -->
-        <header>
-            <!-- Inside divs for east grid layout later in css -->
-            <div id="parkLogoDiv" class="park-logo-div">
-                <!-- Image to be placed in assets folder and referenced properly -->
-                <a href="index.html">
-                    <img src="assets\Logo - Amusement_Park_Edited.png" class="park-logo-img">
-                </a>
-            </div> 
-            <div id="parkTitlesDiv" class="park-titles-div">
-                <h1>Theme Park Name</h1>
-                <h2>Theme park motto/tagline</h2>
+    <!-- External JS Script -->
+    <script type="text/javascript" src=""></script>
+
+    <!-- Embedded script space -->
+    <script>
+        //Space for any embedded scripting
+    </script>
+
+    <style>
+
+        header {
+            margin: 20px;
+            height: 200px;
+        }
+
+        #parkLogoDiv {
+            float: left;
+            width: 20%
+        }
+
+        #parkLogoDiv .park-logo-img {
+            width: 240px;
+            height: 200px;
+        }
+
+        #parkTitlesDiv {
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #parkTitlesDiv h1 {
+            font-family: "Arial";
+            font-weight: bold;
+        }
+
+        #parkTitlesDiv h1 {
+            font-size: 4em;
+            margin: 10px
+        }
+
+        #parkTitlesDiv h2 {
+            font-size: 2em;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+
+</head>
+<body class="main-template">
+<!-- Anne's part - header, highlights, links and events -->
+<!-- This section contains the header & its information -->
+<header>
+    <!-- Inside divs for east grid layout later in css -->
+    <div id="parkLogoDiv" class="park-logo-div">
+        <!-- Image to be placed in assets folder and referenced properly -->
+        <a href="index.html">
+            <img src="assets\Logo - Amusement_Park_Edited.png" class="park-logo-img">
+        </a>
+    </div>
+    <div id="parkTitlesDiv" class="park-titles-div">
+        <h1>Theme Park Name</h1>
+        <h2>Theme park motto/tagline</h2>
+    </div>
+</header>
+
+<section id="highlights">
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <span class="numbertext">1 / 4</span>
+            <p> “insert park news”</p>
+        </div>
+        <div class="mySlides">
+            <span class="numbertext">2 / 4</span>
+            <img src="assets\Event01 - Amusment_Park_Edited.jpg">
+            <div class="text">name of event</div>
+            <p> “insert special offers news”</p>
+        </div>
+        <div class="mySlides">
+            <span class="numbertext">3 / 4</span>
+            <img src="assets\Ride01-Amusement_Park.jpg">
+            <div class="text">name of ride / description</div>
+            <div class="mySlides">
+                <span class="numbertext">4 / 4</span>
+                <p> “insert special offers news”</p>
             </div>
-        </header>
+        </div>
+    </div>
+</section>
+<style>
 
-        <section id="highlights">
-            <div class="slideshow-container">
-                <div class="mySlides">
-                    <span class="numbertext">1 / 4</span>
-                    <p> “insert park news”</p>
-                </div>
-                <div class="mySlides">
-                    <span class="numbertext">2 / 4</span>
-                    <img src="assets\Event01 - Amusment_Park_Edited.jpg">
-                    <div class="text">name of event</div>
-                    <p> “insert special offers news”</p>
-                </div>
-                <div class="mySlides">
-                    <span class="numbertext">3 / 4</span>
-                    <img src="assets\Ride01-Amusement_Park.jpg">
-                    <div class="text">name of ride / description</div>
-                    <div class="mySlides">
-                        <span class="numbertext">4 / 4</span>
-                        <p> “insert special offers news”</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    section.no-background {
+        background-color: unset;
+        margin: 10px;
+        padding: 0;
+    }
 
-        <section id="page-links">
-            <nav>
-                <ul class="horizontal_menu">
-                    <li><a href="plan-your-visit.html">Plan Your Visit</a></li>
-                    <!-- <li><a href="socialMediaLinks.html">Social Media</a></li> -->
-                </ul>
-            </nav>
-        </section>
+    #page-links ul {
+        margin: 0px;
+        padding: 0px;
+    }
 
-        <section id="events">
+    #page-links ul li {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 40px;
+        width: 40%;
+        margin-left: 45px;
+        background-color: #D01114;
+        text-align: center;
+    }
+
+    #page-links ul li a {
+        color: white;
+        font-size: 2em;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+</style>
+<section id="page-links" class="no-background">
+    <nav>
+        <ul class="horizontal_menu">
+            <li><a href="plan-your-visit.html">PLAN YOUR VISIT</a></li>
+            <li><a href="socialMediaLinks.html">SOCIAL MEDIA</a></li>
+        </ul>
+    </nav>
+</section>
+<style>
+
+    #events {
+        height: 400px;
+    }
+
+    #main-event {
+        height: 100%;
+        float: left;
+        width: 40%;
+        position: relative;
+    }
+
+    #secondary-events {
+        float: right;
+        width: 40%;
+        position: relative;
+        height: 100%
+    }
+
+    #secondary-events div.event-container {
+        position: relative;
+        height: 50%;
+    }
+
+
+
+    .event-description {
+        position: absolute;
+        color: white;
+        bottom: 20px;
+        right: 60px;
+    }
+
+
+</style>
+
+<section id="events">
+
+    <div id="main-event" class="event">
+        <div class="event-container">
             <div class="event-description">
-                <h2> “insert seasonal event name”</h2>
+                <h2>Main event</h2>
+                <p>An interesting main event</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="secondary-events" class="event">
+        <div class="event-container">
+            <div class="event-description secondary-event">
+                <h3>FIRST SECONDARY EVENT</h3>
                 <p> “insert event description“</p>
             </div>
-            <div class="event-description">
-                <h3> " insert kids/family event"</h3>
+        </div>
+
+        <div class="event-container">
+            <div class="event-description secondary-event">
+                <h3>SECOND SECONDARY EVENT</h3>
                 <p> “insert event description“</p>
             </div>
-            <div class="event-description">
-                <h3> "insert secondary kids/family event"</h3>
-                <p> “insert event description“</p>
-            </div>
-        </section>
+        </div>
 
-        <section id="bookNow-link">
-            <nav>
-                <p><a href=tickets.html>Book Now</a></p>
-            </nav>
-        </section>
-        <!-- Martino's part, rides section and footer -->
+    </div>
+</section>
 
-        <!-- The section content is homogenous: rides -->
-        <section id="rides">
-            <!-- It's important/useful to put headings even though one decides later to set it as non display with CSS -->
-            <h2>Rides</h2>
+<section id="bookNow-link">
+    <nav>
+        <p><a href=tickets.html>Book Now</a></p>
+    </nav>
+</section>
+<!-- Martino's part, rides section and footer -->
 
-            <!-- There is a first highlighted ride -->
-            <div id="main-ride">
-                <!-- I'll avoid to put images as we'll probably put it as image backgrounds later with CSS -->
-                <h3>Main ride</h3>
-                <p>A great ride we want to highlight, description</p>
-            </div>
+<!-- The section content is homogenous: rides -->
+<section id="rides">
+    <!-- It's important/useful to put headings even though one decides later to set it as non display with CSS -->
+    <h2>Rides</h2>
 
-            <!-- All other rides are here -->
-            <div id="other-rides">
-                <!-- Assign same class to each ride divs as they'll be styled uniformly -->
-                <div class="ride">
-                    <!-- Still, using heading should make the website more indexable and accessible -->
-                    <h3>KIDS</h3>
-                    <p>Kids rides description</p>
-                </div>
-                <div class="ride">
-                    <h3>ADULTS</h3>
-                    <p>Adults rides desription</p>
-                </div>
-                <div class="ride">
-                    <h3>ROLLER COASTER</h3>
-                    <p>Roller coaster description</p>
-                </div>
-                <div class="ride">
-                    <h3>GAMES</h3>
-                    <p>Games description</p>
-                </div>
-            </div>
+    <!-- There is a first highlighted ride -->
+    <div id="main-ride">
+        <!-- I'll avoid to put images as we'll probably put it as image backgrounds later with CSS -->
+        <h3>Main ride</h3>
+        <p>A great ride we want to highlight, description</p>
+    </div>
 
-            <!-- This navbar toolbar will be repeated thorugh the page, I assign it a class so that style will be uniform -->
-            <nav class="booking-cta">
-                <p><a href=”tickets.html>Book Now</a></p>
-            </nav>
+    <!-- All other rides are here -->
+    <div id="other-rides">
+        <!-- Assign same class to each ride divs as they'll be styled uniformly -->
+        <div class="ride">
+            <!-- Still, using heading should make the website more indexable and accessible -->
+            <h3>KIDS</h3>
+            <p>Kids rides description</p>
+        </div>
+        <div class="ride">
+            <h3>ADULTS</h3>
+            <p>Adults rides desription</p>
+        </div>
+        <div class="ride">
+            <h3>ROLLER COASTER</h3>
+            <p>Roller coaster description</p>
+        </div>
+        <div class="ride">
+            <h3>GAMES</h3>
+            <p>Games description</p>
+        </div>
+    </div>
 
-        </section>
+    <!-- This navbar toolbar will be repeated thorugh the page, I assign it a class so that style will be uniform -->
+    <nav class="booking-cta">
+        <p><a href=”tickets.html>Book Now</a></p>
+    </nav>
 
-        <footer>
-            <div id="section">
-                <h3>Sections</h3>
-                <nav id="sectionsfooter" class="section-links"></nav>
-                    <ul>
-                        <li> <a href="index.html">Home</a> </li>
-                        <li> <a href="plan-your-visit.html">Plan Your Visit</a> </li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="contacts">
-                <h3>Contact us</h3>
-                <nav id="fpcontactInformation">
-                    <ul>
-                        <li id = "email"style="text-align:left;"><a href="email.com">Email:</a></li>
-                        <li id = "contactnumber"style="text-align:left;">Contact Number:</li>
-                        <li id = "fax"style="text-align:left;">Fax:</li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="socialmedia">
-                <h3>Follow us on</h3>
-                <nav id="socialmediafooter" class="social-media-links">
-                    <ul>
-                        <li> <a href="https://www.facebook.com">Facebook</a> </li>
-                        <li> <a href="https://www.twitter.com">Twitter</a> </li>
-                        <li> <a href="https://www.instagram.com">Instagram</a> </li>
-                        <li> <a href="https://www.youtube.com">YouTube</a> </li>
-                    </ul>
-                </nav>
-            </div>
-        </footer>
-    </body>
+</section>
+
+<footer>
+    <div id="section">
+        <h3>Sections</h3>
+        <nav id="sectionsfooter" class="section-links"></nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="plan-your-visit.html">Plan Your Visit</a></li>
+        </ul>
+        </nav>
+    </div>
+    <div id="contacts">
+        <h3>Contact us</h3>
+        <nav id="fpcontactInformation">
+            <ul>
+                <li id="email" style="text-align:left;"><a href="email.com">Email:</a></li>
+                <li id="contactnumber" style="text-align:left;">Contact Number:</li>
+                <li id="fax" style="text-align:left;">Fax:</li>
+            </ul>
+        </nav>
+    </div>
+    <div id="socialmedia">
+        <h3>Follow us on</h3>
+        <nav id="socialmediafooter" class="social-media-links">
+            <ul>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://www.twitter.com">Twitter</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://www.youtube.com">YouTube</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
 </html>
