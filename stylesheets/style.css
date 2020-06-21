@@ -19,3 +19,173 @@
     background-color: #D01114;
 }
 
+/**
+ * Header styles
+ */
+
+header {
+    margin: 20px;
+    height: 200px;
+}
+
+#parkLogoDiv {
+    float: left;
+    width: 20%
+}
+
+#parkLogoDiv .park-logo-img {
+    width: 240px;
+    height: 200px;
+}
+
+#parkTitlesDiv {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+#parkTitlesDiv h1 {
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+#parkTitlesDiv h1 {
+    font-size: 4em;
+    margin: 10px
+}
+
+#parkTitlesDiv h2 {
+    font-size: 2em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+/**
+ * CTA section styles
+ */
+section.no-background {
+    background-color: unset;
+    margin: 10px;
+    padding: 0;
+}
+
+#page-links ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#page-links ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 45px;
+    background-color: #D01114;
+    text-align: center;
+}
+
+#page-links ul li a {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    display: block;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+/**
+ * Events styles
+ */
+#events {
+    height: 400px;
+}
+
+#main-event {
+    height: 100%;
+    float: left;
+    width: 40%;
+    position: relative;
+}
+
+#secondary-events {
+    float: right;
+    width: 40%;
+    position: relative;
+    height: 100%
+}
+
+#secondary-events div.event-container {
+    position: relative;
+    height: 50%;
+}
+
+.event-description {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    right: 60px;
+}
+
+/**
+ * CTA Book now styles
+ */
+
+#bookNow-link p {
+
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+    margin-right: 85px;
+    height: 85%;
+    width: 85%;
+    background-color: #D01114;
+    text-align: center
+}
+
+#bookNow-link p a {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    display: block;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+/**
+ * Rides styles
+ */
+#rides {
+    height: 600px;
+    color: white;
+}
+
+#main-ride {
+    float: left;
+    width: 80%;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+}
+
+#other-rides ul li {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    top: 80px;
+    right: 0px;
+    left: 100px;
+    margin-bottom: 50px;
+    width: 40%;
+    height: 15%;
+
+}
+
+
+
