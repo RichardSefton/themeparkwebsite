@@ -187,5 +187,92 @@ section.no-background {
 
 }
 
+.park-logo-img {
+    height: 100px !important;
+    width: 100px !important;
+}
 
+.park-titles-div > h1 {
+    font-size: 33pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
 
+.park-titles-div > h2 {
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+    columns: white;
+}
+
+.title-div > h1 {
+    font-size: 30pt;
+}
+
+.title-div > p:nth-child(odd) {
+    /* background-color: #e68301; */
+    color: black;
+    font-size: 16pt;
+}
+.title-div > p:nth-child(even) {
+    background-color: #109710;
+    color: white;
+    font-size: 15pt;
+}
+
+.main-offer-image {
+    width: 50% !important
+}
+
+.special-offers-section > h1 {
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.special-offers-section > h4 {
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-offer-image {
+    width: 25% !important
+}
+
+.tickets-items-div > h3 
+{
+    font-size : 25pt;
+    text-align : center;
+}
+.ticket-type > h4 
+{
+    font-size : 15pt;
+} 
+li{
+    font-size : 15pt;
+    
+}
+.ticket-image 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.footer > h3
+{
+    text-align : center;
+    color:black;
+    font-size:25pt;
+}
+.social-media-links > span
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11.5%;
+    
+}
+
+.ticket-image {
+    height: auto;
+    width: auto;
+}
