@@ -25,3 +25,13 @@ twitter.png - https://icons8.com/icons/set/twitter
 instagram.png - https://www.freepnglogos.com/pics/instagram-logo-png
 
 youtube.png - http://pngimg.com/imgs/logos/youtube/
+
+themeParkMap.jpg - https://www.freepik.com/premium-vector/amusement-park-map-family-entertainment-festival-attractions-carousel-roller-coaster-ferris-wheel-illustration_7395381.htm
+
+hotel1, 2, 3.jpg - https://www.familyvacationcritic.com/best-theme-park-resorts-for-families/art/
+
+restaurant 1.jpg - https://www.marriott.com/hotels/hotel-information/restaurant/hkgop-hong-kong-ocean-park-marriott-hotel/
+
+restaurant 2.jpg - https://www.oceanpark.com.hk/en/experience/dining-and-shopping/restaurants
+
+restaurant 3.jpg - https://www.10best.com/awards/travel/best-amusement-park-restaurant-2019/
