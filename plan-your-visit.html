@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Page title -->
-        <title>Home page</title>
+        <title>Plan Your Visit</title>
 
         <!-- Base url. Gonna put it in but comment it out. -->
         <!--<base href="http://localhost/"> -->
@@ -33,19 +33,19 @@
             //Space for any embedded scripting
         </script>
     </head>
-    <body>
+    <body class="main-template">
         <!-- This section contains the header & its information -->
         <header>
             <!-- Inside divs for east grid layout later in css -->
             <div id="parkLogoDiv" class="park-logo-div">
                 <!-- Image to be placed in assets folder and referenced properly -->
                 <a href="index.html">
-                    <img src="assets/blankasset" class="park-logo-img">
+                    <img src="assets\Logo - Amusement_Park_Edited.png" class="park-logo-img" alt="Site Logo">
                 </a>
             </div> 
             <div id="parkTitlesDiv" class="park-titles-div">
                 <h1>Theme Park Name</h1>
-                <h2>Theme park motto/tagline</h2>
+                <h2>There are better places for you to be</h2>
             </div>
         </header>
 
@@ -53,10 +53,11 @@
         <section id="socialMediaLinksDiv" class="social-media-links">
             <!-- Not sure if we want images as links or just plain text. I think image links will be better. -->
             <nav id="socialMediaLinks" class="social-media-links">
-                <a href="https://www.facebook.com">Facebook</a> |
-                <a href="https://www.twitter.com">Twitter</a> |
-                <a href="https://instagram.com">Instagram</a> |
-                <a href="https://www.youtube.com">YouTube</a>
+                <span>
+                <a href="https://www.facebook.com"><img src="assets/facebook.png" width = "50" height = "50"></a>
+                <a href="https://www.twitter.com"><img src="assets/twitter.png" width = "50" height = "50"></a>
+                <a href="https://instagram.com"><img src="assets/instagram.png" width = "50" height = "50"></a>
+                <a href="https://www.youtube.com"><img src="assets/youtube.png" width = "50" height = "50"></a> </span>
             </nav>
         </section>
 
@@ -66,104 +67,140 @@
         </section>
 
         <section id="transportation">
-            <h3>How to get to us</h3>
+            <h1>How to get to us</h1>
             <div id="busTransport">
                 <!-- Directions for travel by public transport -->
                 <!-- links to bus time tables -->
-                <ul>
-                    <li><a href="bus timetable">bus no.</a></li>
-                    <li><a href="bus timetable">bus no.</a></li>
-                    <li><a href="bus timetable">bus no.</a></li>
-                </ul>
+                <style>
+                    table, th, td{
+                        border: 1px solid black;
+                    }
+                </style>              
+                <h3>Bus</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bus No.</th>
+                            <th>From</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AB-01</td>
+                            <td>Downtown</td>
+                        </tr>
+                        <tr>
+                            <td>BB-12</td>
+                            <td>City B</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div id="trainTransport">
+                <h3>Train</h3>
                 <!-- Directions for travel by train -->
                 <ul>
-                    <li>Travel directions</li>
-                    <li>Travel directions</li>
-                    <li>Travel directions</li>
+                    <li>Take the Blue Line and get off at Theme Park #16 Station for direct access to park south entrance</li>
+                    <li>Take the Green Line and get off at King Station for 5 minutes walk to park north entrance</li>
                 </ul>
             </div>
             <div id="carTransport">
+                <h3>Car</h3>
                 <!-- From the north -->
                 <ul>
-                    <li>Travel directions</li>
-                    <li>Travel directions</li>
-                    <li>Travel directions</li>
+                    <li>Drive through the Northern Tunnel from Downtown via the no.11 highway. The tunnel fee is US$5(one-way). After the tunnel, you will be on King Road. Turn right into Amusement Park #16 to reach the North Entrance.</li>
                 </ul>
                 <!-- From the south -->
                 <ul>
-                    <li>Travel directions</li>
-                    <li>Travel directions</li>
-                    <li>Travel directions</li>
-                </ul>                
+                    <li>Drive through the Sourthern Bridge from Harbour via the Queen Road. Turn Right to Ewdard Road and turn left to the Amusement Park Road to reach the South Entrance. </li>
+                </ul>
             </div>
             <div id="map">
                 <img src="mapfromtrainstation">
             </div>
         </section>
 
-        <section id="themeParkMap">
-            <h3>Map of the park</h3>
-            <img src="themeParkMap">
+        <section id="themeParkMap" class="theme-park-map">
+            <span>
+                <h1>Map of the park</h1>
+                <img src="assets/themeParkMap.jpg" class="theme-park-image" alt="park map">
+            </span>
         </section>
 
         <section id="accomodation">
-            <h3>Where to sleep</h3>
+            <h1>Where to sleep</h1>
             <nav>
                 <ul>
-                    <li><a>Hotel 1</a></li>
-                    <li><a>Hotel 2</a></li>
-                    <li><a>Hotel 3</a></li>
+                    <li>
+                        <a>Hotel 1</a>
+                        <img src="assets/hotel 1.jpg" class="hotel-image" alt="abc hotel">
+                    </li>
+                    <li>
+                        <a>Hotel 2</a>
+                        <img src="assets/hotel 2.jpg" class="hotel-image" alt="def hotel">
+                    </li>
+                    <li>
+                        <a>Hotel 3</a>
+                        <img src="assets/hotel 3.jpg" class="hotel-image" alt="ghi hotel">
+                    </li>
                 </ul>
             </nav>
         </section>
 
         <section id="dining"></section>
-            <h3>Where to eat</h3>
+            <h1>Where to eat</h1>
             <nav>
                 <ul>
-                    <li><a>Restaraunt 1</a></li>
-                    <li><a>Restaraunt 2</a></li>
-                    <li><a>Restaraunt 3</a></li>
+                    <li>
+                        <a>Restaraunt 1</a>
+                        <img src="assets/restaurant 1.jpg" class="restaurant-image" alt="English restaurant">
+                    </li>
+                    <li>
+                        <a>Restaraunt 2</a>
+                        <img src="assets/restaurant 2.jpg" class="restaurant-image" alt="Chinese restaurant">
+                    </li>
+                    <li>
+                        <a>Restaraunt 3</a>
+                        <img src="assets/restaurant 3.jpg" class="restaurant-image" alt="Italian restaurant">
+                    </li>
                 </ul>
             </nav>
         </section>
 
         <section id="specialNeeds">
-            <h3>Special needs access</h3>
-            <p>Description of the parks special needs access</p>
+            <h1>Special needs access</h1>
+            <p>Guests with any type of disability can have a great time at Amusement Park #16. Assistance for special needs is offered from the park's Guest Service centers, found near both the South and the North Entrance.</p>
         </section>
 
         <footer>
-            <div id="section">
+            <div id="section" class="footer" style="border:1px solid; background-color:#F8C706;">
                 <h3>Sections</h3>
                 <nav id="sectionsfooter" class="section-links"></nav>
                     <ul>
-                        <li> <a href="index.html">Home</a> </li>
-                        <li> <a href="plan-your-visit.html">Plan Your Visit</a> </li>
+                        <li> <a href="index.html" style="background-color:white;">Home</a> </li>
+                        <li> <a href="tickets.html" style="background-color:white;">Tickets</a> </li>
                     </ul>
                 </nav>
             </div>
-            <div id="contacts">
-                <h3>Contact us</h3>
+            <div id="contacts" class="footer" style="border:1px solid; background-color:#006CB6;">
+                <h3 style="color:white;">Contact us</h3>
                 <nav id="fpcontactInformation">
                     <ul>
-                        <li id = "email"style="text-align:left;"><a href="email.com">Email:</a></li>
-                        <li id = "contactnumber"style="text-align:left;">Contact Number:</li>
-                        <li id = "fax"style="text-align:left;">Fax:</li>
+                        <li id = "email"style="text-align:left;">Email : <a href="https://www.gmail.com" style="background-color:white;">Happyfuntime-team16@gmail.com</a> </li>
+                        <li id = "contactnumber"style="text-align:left;">Contact Number : 012-3456789</li>
+                        <li id = "fax"style="text-align:left;">Fax : 012-1231231</li>
                     </ul>
                 </nav>
             </div>
-            <div id="socialmedia">
+            <div id="socialmedia" class="footer" style="border:1px solid; background-color:#F8C706;">
                 <h3>Follow us on</h3>
                 <nav id="socialmediafooter" class="social-media-links">
-                    <ul>
-                        <li> <a href="https://www.facebook.com">Facebook</a> </li>
-                        <li> <a href="https://www.twitter.com">Twitter</a> </li>
-                        <li> <a href="https://www.instagram.com">Instagram</a> </li>
-                        <li> <a href="https://www.youtube.com">YouTube</a> </li>
-                    </ul>
+                    <span>
+                    <a href="https://www.facebook.com"><img src="assets/facebook.png" width = "50" height = "50"></a>
+                    <a href="https://www.twitter.com"><img src="assets/twitter.png" width = "50" height = "50"></a>
+                    <a href="https://www.instagram.com"><img src="assets/instagram.png" width = "50" height = "50"></a>
+                    <a href="https://www.youtube.com"><img src="assets/youtube.png" width = "50" height = "50"></a>
+                    </span>
                 </nav>
             </div>
         </footer> 
