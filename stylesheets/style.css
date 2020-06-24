@@ -276,3 +276,11 @@ li{
     height: auto;
     width: auto;
 }
+
+.hotel-image {
+    width: 50% !important
+}
+
+.restaurant-image {
+    width: 50% !important
+}
