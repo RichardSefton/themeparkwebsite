@@ -134,7 +134,7 @@ section.no-background {
  * CTA Book now styles
  */
 
-#bookNow-link p {
+.bookNow-link p {
 
     /* display: inline-block;
     margin-top: 20px;
@@ -147,7 +147,7 @@ section.no-background {
     /* text-align: center */
 }
 
-#bookNow-link p a {
+.bookNow-link p a {
     color: white;
     font-size: 2em;
     text-decoration: none;
