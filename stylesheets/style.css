@@ -1,5 +1,6 @@
 .main-template {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
     color: white;
 
     background-color: #006CB6;
@@ -45,17 +46,22 @@ header {
 }
 
 #parkTitlesDiv h1 {
-    font-family: "Arial";
+    /* font-family: "Arial"; */
     font-weight: bold;
+    font-family: "Architects Daughter";
+    font-size: 2em;
 }
 
 #parkTitlesDiv h1 {
     font-size: 4em;
     /* margin: 10px */
+    font-family: "Architects Daughter";
+    font-size: 2em;
 }
 
 #parkTitlesDiv h2 {
-    font-size: 2em;
+    font-family: "Architects Daughter";
+    font-size: 1.5em;
 }
 
 section {
@@ -149,7 +155,7 @@ section.no-background {
 
 #bookNow-link p a {
     color: white;
-    font-size: 2em;
+    /* font-size: 2em; */
     text-decoration: none;
     /* display: block;
     padding: 40px;
@@ -193,30 +199,36 @@ section.no-background {
 }
 
 .park-titles-div > h1 {
-    font-size: 33pt;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 33pt; */
+    /* font-family: Arial, Helvetica, sans-serif; */
     color: white;
+    font-family: "Architects Daughter";
+    font-size: 2em;
 }
 
 .park-titles-div > h2 {
     font-size: 24pt;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     columns: white;
+    font-family: "Architects Daughter";
+    font-size: 1.5em;
 }
 
 .title-div > h1 {
-    font-size: 30pt;
+    /* font-size: 30pt; */
+    font-family: "Architects Daughter";
+    font-size: 2em;
 }
 
 .title-div > p:nth-child(odd) {
     /* background-color: #e68301; */
     color: black;
-    font-size: 16pt;
+    /* font-size: 16pt; */
 }
 .title-div > p:nth-child(even) {
     background-color: #109710;
     color: white;
-    font-size: 15pt;
+    /* font-size: 15pt; */
 }
 
 .main-offer-image {
@@ -224,13 +236,17 @@ section.no-background {
 }
 
 .special-offers-section > h1 {
-    font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 2em; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Architects Daughter";
+    font-size: 2em;
 }
 
 .special-offers-section > h4 {
-    font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Architects Daughter";
+    font-size: 1em;
 }
 
 .sub-offer-image {
@@ -239,15 +255,15 @@ section.no-background {
 
 .tickets-items-div > h3 
 {
-    font-size : 25pt;
+    font-size : 1em;
     /* text-align : center; */
 }
 .ticket-type > h4 
 {
-    font-size : 15pt;
+    font-size : 1em;
 } 
 li{
-    font-size : 15pt;
+    font-size : 0.5em;
     
 }
 .ticket-image 
@@ -261,7 +277,7 @@ li{
 {
     /* text-align : center; */
     color:black;
-    font-size:25pt;
+    font-size:1em;
 }
 .social-media-links > span
 {
@@ -283,4 +299,13 @@ li{
 
 .restaurant-image {
     /* width: 50% !important */
+}
+
+h1 {
+    font-family: "Architects Daughter";
+    font-size: 2em;
+}
+h4 {
+    font-family: "Architects Daughter";
+    font-size: 1em;
 }
