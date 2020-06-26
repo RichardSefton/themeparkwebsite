@@ -1,6 +1,7 @@
 <IMAGES REFRENCE>
 Logo - Amusement_Park 
 	link: https://thumbs.dreamstime.com/b/amusement-park-vector-11464497.jpg
+waterslide.jpg - https://www.thenational.ae/image/policy:1.618526:1502362324/image/jpeg.jpg?$p=79ddad7&w=640&$w=b1689f7
 
 Event - Amusement_Park
 	link: https://www.flickr.com/photos/gml527/3722287234
@@ -31,3 +32,30 @@ MainEvent - Amusement_Park
 
 SecondSecondaryEvent - Amusement_Park
 	https://www.mallofamerica.com/directory/amzing-mirror-maze
+fruit.jpg - https://www.medicalnewstoday.com/articles/308796
+
+halloween.jpg https://www.liverpool-one.com/events/halloween-spooktacular/
+
+onedayticket.jpg - google.com/imgres?imgurl=https%3A%2F%2Fstatic.tripzilla.com%2Fthumb%2F4%2F7%2F156743_620x.jpg&imgrefurl=https%3A%2F%2Ftripzilla.sg%2Ftravel%2Fdeal%2F65588%2Funiversal-studios-singapore-adult-one-day-ticket-free-sgd5-meal-voucher-at-sgd75&tbnid=QEzcTVLR-OQ3NM&vet=10CH4QMyieAWoXChMI8OaJg46Q6gIVAAAAAB0AAAAAEAI..i&docid=GwlipdMKEkG55M&w=620&h=302&q=one%20day%20ticket&ved=0CH4QMyieAWoXChMI8OaJg46Q6gIVAAAAAB0AAAAAEAI
+
+studentpass.jpg - https://www.befreetour.com/en/detail/7369-lotte-world-and-school-uniform-combo
+
+annualpass.jpg - https://newsbeezer.com/is-the-annual-pass-worth-it-as-disney-changes-the-pricing-system-we-help-you-decid
+
+facebook.png - http://pngimg.com/imgs/logos/facebook_logos/
+
+twitter.png - https://icons8.com/icons/set/twitter
+
+instagram.png - https://www.freepnglogos.com/pics/instagram-logo-png
+
+youtube.png - http://pngimg.com/imgs/logos/youtube/
+
+themeParkMap.jpg - https://www.freepik.com/premium-vector/amusement-park-map-family-entertainment-festival-attractions-carousel-roller-coaster-ferris-wheel-illustration_7395381.htm
+
+hotel1, 2, 3.jpg - https://www.familyvacationcritic.com/best-theme-park-resorts-for-families/art/
+
+restaurant 1.jpg - https://www.marriott.com/hotels/hotel-information/restaurant/hkgop-hong-kong-ocean-park-marriott-hotel/
+
+restaurant 2.jpg - https://www.oceanpark.com.hk/en/experience/dining-and-shopping/restaurants
+
+restaurant 3.jpg - https://www.10best.com/awards/travel/best-amusement-park-restaurant-2019/
