@@ -7,3 +7,27 @@ Event - Amusement_Park
 
 Ride - Amusement_Park
 	link: https://www.retailnews.asia/genting-sues-the-walt-disney-co-for-cancelled-theme-park-contract/carousel-theme-park-ftr/
+
+RollercoasterRide - Amusement_Park	
+	https://upload.wikimedia.org/wikipedia/commons/3/39/Behemoth2.JPG
+
+AdultRide - Amusement_Park
+	https://live.staticflickr.com/7350/10079331425_d250df54e3_b.jpg
+
+KidRide - Amusement_Park
+	https://commons.wikimedia.org/wiki/File:TeacupsMadTeaParty_wb.jpg
+
+Games - Amusement_Park
+	https://www.twenty20.com/photos/909708a8-d811-4354-a757-4cf6bdec6b6f
+
+MainRide - Amusement_Park
+	https://www.dreamstime.com/photos-images/water-park.html
+
+FirstSecondaryEvent - Amusement_Park
+	https://pointblankpromo.com/en/2018/04/20/en-game-centre/
+
+MainEvent - Amusement_Park
+	https://www.armadamotel.com/4-wildwood-crest-nj-activities-for-a-memorable-vacation/splash-zone-water-park/
+
+SecondSecondaryEvent - Amusement_Park
+	https://www.mallofamerica.com/directory/amzing-mirror-maze
