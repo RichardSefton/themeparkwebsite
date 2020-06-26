@@ -1,8 +1,7 @@
 .main-template {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.5em;
+    font-size: 1em;
     color: white;
-
     background-color: #006CB6;
 
 
@@ -45,25 +44,6 @@ header {
     margin: 10px; */
 }
 
-#parkTitlesDiv h1 {
-    /* font-family: "Arial"; */
-    font-weight: bold;
-    font-family: "Architects Daughter";
-    font-size: 2em;
-}
-
-#parkTitlesDiv h1 {
-    font-size: 4em;
-    /* margin: 10px */
-    font-family: "Architects Daughter";
-    font-size: 2em;
-}
-
-#parkTitlesDiv h2 {
-    font-family: "Architects Daughter";
-    font-size: 1.5em;
-}
-
 section {
     /* padding: 20px;
     margin: 20px; */
@@ -78,12 +58,12 @@ section.no-background {
     padding: 0; */
 }
 
-#page-links ul {
+.page-links ul {
     /* margin: 0px;
     padding: 0px; */
 }
 
-#page-links ul li {
+.page-links ul li {
     display: inline-block;
     /* margin-top: 20px;
     margin-bottom: 20px;
@@ -93,7 +73,7 @@ section.no-background {
     /* text-align: center; */
 }
 
-#page-links ul li a {
+.page-links ul li a {
     color: white;
     font-size: 2em;
     text-decoration: none;
@@ -198,28 +178,6 @@ section.no-background {
     width: 100px !important; */
 }
 
-.park-titles-div > h1 {
-    /* font-size: 33pt; */
-    /* font-family: Arial, Helvetica, sans-serif; */
-    color: white;
-    font-family: "Architects Daughter";
-    font-size: 2em;
-}
-
-.park-titles-div > h2 {
-    font-size: 24pt;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    columns: white;
-    font-family: "Architects Daughter";
-    font-size: 1.5em;
-}
-
-.title-div > h1 {
-    /* font-size: 30pt; */
-    font-family: "Architects Daughter";
-    font-size: 2em;
-}
-
 .title-div > p:nth-child(odd) {
     /* background-color: #e68301; */
     color: black;
@@ -235,35 +193,12 @@ section.no-background {
     /* width: 50% !important */
 }
 
-.special-offers-section > h1 {
-    /* font-size: 2em; */
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: "Architects Daughter";
-    font-size: 2em;
-}
-
-.special-offers-section > h4 {
-    font-size: 2em;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: "Architects Daughter";
-    font-size: 1em;
-}
-
 .sub-offer-image {
     /* width: 25% !important */
 }
 
-.tickets-items-div > h3 
-{
-    font-size : 1em;
-    /* text-align : center; */
-}
-.ticket-type > h4 
-{
-    font-size : 1em;
-} 
 li{
-    font-size : 0.5em;
+    font-size : 1em;
     
 }
 .ticket-image 
@@ -273,12 +208,7 @@ li{
     margin-right: auto;
     width: 50%; */
 }
-.footer > h3
-{
-    /* text-align : center; */
-    color:black;
-    font-size:1em;
-}
+
 .social-media-links > span
 {
     /* display: block;
@@ -302,10 +232,24 @@ li{
 }
 
 h1 {
-    font-family: "Architects Daughter";
+    font-family: 'Architects Daughter', cursive;
+    font-weight: normal;
+    font-size:4.5em;
+    color: white;
+}
+h2 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3em;
+    color: white;
+}
+
+h3 {
+    font-family: 'Architects Daughter', cursive;
     font-size: 2em;
+    color: white;
 }
 h4 {
-    font-family: "Architects Daughter";
-    font-size: 1em;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5em;
+    color: white;
 }
