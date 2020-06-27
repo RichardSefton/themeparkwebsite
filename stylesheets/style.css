@@ -71,6 +71,21 @@ section.no-background {
     margin-left: 45px; */
     background-color: #D01114;
     /* text-align: center; */
+
+    /* Need the animation back from hover */
+    transition: background-color 500ms ease;
+}
+
+/* Want the book now buttons to activate on hover. NIce smooth animation to 
+highlight to the user it is an element they can interact with */
+.page-links ul li:hover {
+    background-color: #109710;
+    transform: scale(1.1);
+    transition: background-color transform 500ms ease;
+
+    /* shake animation */
+    animation: shake 1s;
+    animation-iteration-count: infinite;
 }
 
 .page-links ul li a {
@@ -218,6 +233,25 @@ li{
     
 }
 
+/* animation to make the currently hovered social media pop slightly */
+/* .social-media-links-animation {
+    transition: transform 500ms ease;
+}
+
+.social-media-links-animation:hover {
+    transform: translate(0px,-25px);
+    transition: transform 500ms ease;
+} */
+
+.social-media-links > span a img {
+    transition: transform 500ms ease;
+}
+
+.social-media-links > span a img:hover {
+    transform: translate(0px,-25px);
+    transition: transform 500ms ease;
+}
+
 .ticket-image {
     /* height: auto;
     width: auto; */
@@ -252,4 +286,18 @@ h4 {
     font-family: 'Architects Daughter', cursive;
     font-size: 1.5em;
     color: white;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
