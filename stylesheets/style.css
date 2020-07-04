@@ -77,12 +77,16 @@ section.no-background {
 }
 
 /* Want the book now buttons to activate on hover. NIce smooth animation to 
-highlight to the user it is an element they can interact with */
+highlight to the user it is an element they can interact with 
+
+Cant seem to have scale and the shake animation at the same time. Not necessarily a bad
+thing as it may be too much*/
 .page-links ul li:hover {
     background-color: #109710;
-    transform: scale(1.1);
-    transition: background-color transform 500ms ease;
-
+    /* transform: scale(2); */
+    /* scale needs fixing */
+    transition: background-color 500ms ease;
+    /* transition-delay: 500ms ease; */
     /* shake animation */
     animation: shake 1s;
     animation-iteration-count: infinite;
@@ -288,6 +292,7 @@ h4 {
     color: white;
 }
 
+/* Kayframes for the shake animation */
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
