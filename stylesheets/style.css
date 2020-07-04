@@ -292,6 +292,48 @@ h4 {
     color: white;
 }
 
+.text-over-image {
+    display: inline-block;
+    margin: 1px;
+    position: relative;
+}
+
+.text-over-image img {
+    width: 100%;
+    height: 100%;
+
+    transition: 250ms;
+}
+
+.text-over-image :not(img){
+    position: absolute;
+    top: 30% !important;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    width: 100%;
+    opacity: 0;
+    transition: 250ms;
+}
+
+.text-over-image p {
+    top: 70% !important;
+}
+
+.text-over-image:hover img {
+    filter: blur(3px) brightness(40%);
+    transition: 250ms;
+}
+
+.text-over-image h3 {
+    top: 50%;
+}
+
+.text-over-image:hover :not(img) {
+    opacity: 1;
+    transition: 250ms;
+}
+
 /* Kayframes for the shake animation */
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }

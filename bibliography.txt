@@ -63,3 +63,5 @@ restaurant 3.jpg - https://www.10best.com/awards/travel/best-amusement-park-rest
 css translate reference https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate
 
 css shake animation - https://www.w3schools.com/howto/howto_css_shake_image.asp
+
+css image text https://www.youtube.com/watch?v=W0ubfqwd4G4
