@@ -24,29 +24,43 @@
  */
 
 header {
-    /* margin: 20px; */
-    /* height: 200px; */
+    margin: 5px;
+    padding: 20px;
 }
 
 #parkLogoDiv {
-    /* float: left;
-    width: 20% */
+width:20%;
+align-content: left;    
 }
 
 #parkLogoDiv .park-logo-img {
-    /* width: 240px;
-    height: 200px; */
+    width: 500px;
+    height: auto;
 }
 
 #parkTitlesDiv {
+    text-align: right;
     color: white;
-    /* padding: 10px;
-    margin: 10px; */
+    padding: 5px;
+    margin: 5px;
 }
 
-section {
-    /* padding: 20px;
-    margin: 20px; */
+#highlights {
+    text-align: center;
+    padding: 50px;
+}
+#section {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#section li {
+    font-size: 1em;
+}
+
+#contacts {
+    text-align: center;
 }
 
 /**
@@ -65,12 +79,14 @@ section.no-background {
 
 .page-links ul li {
     display: inline-block;
-    /* margin-top: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    width: 40%;
-    margin-left: 45px; */
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #D01114;
-    /* text-align: center; */
+    padding: 5px;
+    text-align: center;
 }
 
 .page-links ul li a {
@@ -91,10 +107,12 @@ section.no-background {
 }
 
 #main-event {
-    /* height: 100%;
+    height: 100%;
     float: left;
-    width: 40%;
-    position: relative; */
+    width: 50%;
+    position: relative; 
+    padding: 10px;
+    margin: 10px;
 }
 
 #secondary-events {
@@ -105,8 +123,8 @@ section.no-background {
 }
 
 #secondary-events div.event-container {
-    /* position: relative;
-    height: 50%; */
+    position: relative;
+    height: 50%;
 }
 
 .event-description {
@@ -120,17 +138,30 @@ section.no-background {
  * CTA Book now styles
  */
 
-#bookNow-link p {
+#bookNow-link li {
 
-    /* display: inline-block;
+    display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 85px;
     margin-right: 85px;
     height: 85%;
-    width: 85%; */
+    width: 85%; 
     background-color: #D01114;
-    /* text-align: center */
+    text-align: center;
+}
+
+#bookNow-link2 li {
+
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+    margin-right: 85px;
+    height: 85%;
+    width: 85%; 
+    background-color: #D01114;
+    text-align: center;
 }
 
 #bookNow-link p a {
@@ -152,24 +183,24 @@ section.no-background {
 }
 
 #main-ride {
-    /* float: left;
-    width: 80%;
+    float: left;
+    width: 100%;
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    position: relative; */
+    position: relative;
 }
 
 #other-rides ul li {
-    /* display: inline-block;
-    padding: 10px;
+    display: inline-block;
+    padding: 35px;
     position: relative;
     top: 80px;
-    right: 0px;
+    right: 10px;
     left: 100px;
-    margin-bottom: 50px;
+    margin-bottom:100px;
     width: 40%;
-    height: 15%; */
+    height: 20%; 
 
 }
 
@@ -211,10 +242,11 @@ li{
 
 .social-media-links > span
 {
-    /* display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 11.5%; */
+    width: 25%; 
+    padding: 5px;
     
 }
 
@@ -252,4 +284,34 @@ h4 {
     font-family: 'Architects Daughter', cursive;
     font-size: 1.5em;
     color: white;
+}
+
+#socialmedia {
+    text-align: center
+    
+}
+
+#themeParkMap {
+    text-align: center
+}
+
+#accomodation {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#dining {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#specialOffersDiv {
+    text-align: center;
+}
+
+#ticketdescriptions {
+    text-align: center;
+        
 }
