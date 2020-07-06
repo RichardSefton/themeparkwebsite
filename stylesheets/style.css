@@ -34,8 +34,8 @@ header {
 
 #parkLogoDiv {
     width: 20%;
-    align-content: left;
     float: left;
+    margin-bottom: 30px;
 }
 
 #parkLogoDiv .park-logo-img {
@@ -45,10 +45,9 @@ header {
 }
 
 #parkTitlesDiv {
-    text-align: right;
+    text-align: center;
+    width: 80%;
     color: white;
-    padding: 5px;
-    margin: 5px;
 }
 
 #highlights {
