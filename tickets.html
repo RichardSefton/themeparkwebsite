@@ -19,6 +19,9 @@
 
         <!-- external stylesheet -->
         <link rel="stylesheet" href="stylesheets/style.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
         
         <!-- Embedded styles -->
         <style>
@@ -34,35 +37,36 @@
         </script>
     </head>
     <body class="main-template">
-        <!-- Header section to contain the main park logo along with Park name and accompanying text in large print -->
+        <!-- This section contains the header & its information -->
         <header>
             <!-- Inside divs for east grid layout later in css -->
             <div id="parkLogoDiv" class="park-logo-div">
                 <!-- Image to be placed in assets folder and referenced properly -->
                 <a href="index.html">
-                    <img src="assets/site-logo.png" class="park-logo-img" alt="Site Logo">
+                    <img src="assets\Logo - Amusement_Park_Edited.png" class="park-logo-img">
                 </a>
-            </div> 
+            </div>
             <div id="parkTitlesDiv" class="park-titles-div">
-                <h1>Theme Park #16</h1>
-                <h2>There are better places for you to be</h2>
+                <h1>Theme Park Name</h1>
+                <h2>There is nowhere more fun than here</h2>
             </div>
         </header>
         
         <!-- Links to Social Media - May be beter in a span? Or inside the header?-->
         <section id="socialMediaLinksDiv" class="social-media-links">
             <!-- Not sure if we want images as links or just plain text. I think image links will be better. -->
-            <nav id="socialmediafooter" class="social-media-links">
-                <span> <a href="https://www.facebook.com"><img src="assets/facebook.png" width = "50" height = "50"></a>
-                <a href="https://www.twitter.com"><img src="assets/twitter.png" width = "50" height = "50"></a>
-                <a href="https://www.instagram.com"><img src="assets/instagram.png" width = "50" height = "50"></a>
-                <a href="https://www.youtube.com"><img src="assets/youtube.png" width = "50" height = "50"></a> </span>
+           <span>
+            <a href="https://www.facebook.com"><img src="assets/facebook.png" width="50" height="50"></a>
+            <a href="https://www.twitter.com"><img src="assets/twitter.png" width="50" height="50"></a>
+            <a href="https://www.instagram.com"><img src="assets/instagram.png" width="50" height="50"></a>
+            <a href="https://www.youtube.com"><img src="assets/youtube.png" width="50" height="50"></a>
+            </span>
             </nav>
         </section>
 
         <!-- Page Title -->
         <section id="titleDiv" class="title-div">
-            <h1>Tickets and Special Offers!</h1>
+            <h2 style='text-align:center'>Tickets and Special Offers!</h2>
             <!-- However we're formatting the content to go in this section can go in here -->
             <p>Please see below for our latest and greatest deals we have on offer.</p>
             <p>
@@ -83,8 +87,11 @@
         <section id="specialOffersDiv" class="special-offers-section">
             <!-- Again for grid layout we have nested spans so less space between -->
             <span>
-               <h1>Half price water slides in December!</h1>
-               <img src="assets/waterslide.jpg" class="main-offer-image" alt="waterslide image">
+                <div class="text-over-image">
+                <h2>Half price water slides in December!</h2>
+                <img src="assets/waterslide.jpg" class="main-offer-image" alt="waterslide image">
+                </div>
+
             </span>
 
             <!-- For smaller images next to this one -->
@@ -92,28 +99,34 @@
                 <!-- for nested grids - Two Smaller offers -->
                 <span>
                     <!-- Small Offer one -->
-                    <h4>Free fruit for kids with family tickets!</h4>
-                    <img src="assets/fruit.jpg" class="sub-offer-image" alt="Fruit">
+                    <div class="text-over-image">
+                        <h3>Free fruit for kids with family tickets!</h3>
+                        <img src="assets/fruit.jpg" class="sub-offer-image" alt="Fruit">
+                    </div>
                 </span>
                 <span>
                     <!-- Small offer two -->
-                    <h4>Spooky Halloween Festival</h4>
-                    <img src="assets/halloween.jpg" class="sub-offer-image" alt="halloween">
+                    <div class="text-over-image">
+                        <h3>Spooky Halloween Festival</h3>
+                        <img src="assets/halloween.jpg" class="sub-offer-image" alt="halloween">
+                    </div>
                 </span>
             </span>
         </section>      
         
         <!-- this is where i start (YE KO MYIINT) -->
-        <section id="ticket descriptions" class=tickets >
+        <section id="ticketdescriptions" class=tickets >
             <section id="tblOne" style="border:1px solid; background-color:#006CB6;">
                 <div id=onedayticket class="tickets-items-div">
                     <h3 style="color:white;">One Day Ticket</h3>  
                 </div>
                 <span>
-                <img src="assets/onedayticket.jpg" width = "50" height = "200" class="ticket-image" alt="onedayticket">
+                    <div class="text-over-image">
+                        <img src="assets/onedayticket.jpg" width = "50" height = "200" class="ticket-image" alt="onedayticket">
+                        <h4 style="color:white;">Regular-priced ticket is valid for one day, on the selected date of visit</h4>
+                    </div>
                 </span>
                 <div id="onedayticket" class="ticket-type">
-                    <h4 style="color:white;">Regular-priced ticket is valid for one day, on the selected date of visit</h4>
                     <ul style="color:white;"> 
                         <li>Inclusive of all rides and attractions</li>
                         <li>Non-inclusive of the privilege to take pictures with cosplayers and characters.</li>
@@ -128,10 +141,12 @@
                     <h3>Student Pass</h3>
                 </div> 
                 <span>
-                 <img src="assets/studentpass.jpg" class="ticket-image" alt="studentpass">
+                    <div class="text-over-image">
+                        <img src="assets/studentpass.jpg" class="ticket-image" alt="studentpass">
+                        <h4>6 months of unlimited admission for students</h4>
+                    </div>
                 </span>
                 <div id="studentpass" class="ticket-type">
-                    <h4>6 months of unlimited admission for students</h4>
                     <ul>
                         <li>Inclusive of all rides, attractions and privilege to take photos with cosplayers and characters</li>
                         <li>6 months expiry date (starts from date of purchase)</li>
@@ -141,14 +156,16 @@
                 </div>   
             </section>  
             <section id="tblThree"  style="border:1px solid; background-color:#006CB6;">
-                <div id=annualpass class="tickets-items-div">>
+                <div id=annualpass class="tickets-items-div">
                     <h3 style="color:white;">Annual Pass</h3> 
                 </div>
                 <span>
-                 <img src="assets/annualpass.jpg" class="ticket-image" alt="studentpass">
+                    <div class="text-over-image">
+                        <img src="assets/annualpass.jpg" class="ticket-image" alt="studentpass">
+                        <h4 style="color:white;">Twelve (12) months of unlimited admission!!!</h4>
+                    </div>
                 </span>
                 <div id="seasonpass" class="ticket-type">
-                    <h4 style="color:white;">Twelve (12) months of unlimited admission!!!</h4>
                     <ul style="color:white;">
                         <li>Inclusive of all rides, attractions and privilege to take photos with cosplayers and characters</li>
                         <li>12 months expiry date (starts from date of purchase)</li>
@@ -183,10 +200,12 @@
             <div id="socialmedia" class="footer" style="border:1px solid; background-color:#F8C706;">
                 <h3>Follow us on</h3>
                 <nav id="socialmediafooter" class="social-media-links">
-                        <span> <a href="https://www.facebook.com"><img src="assets/facebook.png" width = "50" height = "50"></a>
-                        <a href="https://www.twitter.com"><img src="assets/twitter.png" width = "50" height = "50"></a>
-                        <a href="https://www.instagram.com"><img src="assets/instagram.png" width = "50" height = "50"></a>
-                        <a href="https://www.youtube.com"><img src="assets/youtube.png" width = "50" height = "50"></a> </span>
+          <span>
+            <a href="https://www.facebook.com"><img src="assets/facebook.png" width="50" height="50"></a>
+            <a href="https://www.twitter.com"><img src="assets/twitter.png" width="50" height="50"></a>
+            <a href="https://www.instagram.com"><img src="assets/instagram.png" width="50" height="50"></a>
+            <a href="https://www.youtube.com"><img src="assets/youtube.png" width="50" height="50"></a>
+            </span>
                 </nav>
             </div>
         </footer>

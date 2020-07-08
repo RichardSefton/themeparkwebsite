@@ -59,3 +59,9 @@ restaurant 1.jpg - https://www.marriott.com/hotels/hotel-information/restaurant/
 restaurant 2.jpg - https://www.oceanpark.com.hk/en/experience/dining-and-shopping/restaurants
 
 restaurant 3.jpg - https://www.10best.com/awards/travel/best-amusement-park-restaurant-2019/
+
+css translate reference https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate
+
+css shake animation - https://www.w3schools.com/howto/howto_css_shake_image.asp
+
+css image text https://www.youtube.com/watch?v=W0ubfqwd4G4

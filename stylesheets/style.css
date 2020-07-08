@@ -1,7 +1,11 @@
+ul {
+    list-style-type: none;
+}
+
 .main-template {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
     color: white;
-
     background-color: #006CB6;
 
 
@@ -24,43 +28,45 @@
  */
 
 header {
-    /* margin: 20px; */
-    /* height: 200px; */
+    margin: 5px;
+    padding: 20px;
 }
 
 #parkLogoDiv {
-    /* float: left;
-    width: 20% */
+    width: 20%;
+    float: left;
+    margin-bottom: 30px;
 }
 
 #parkLogoDiv .park-logo-img {
-    /* width: 240px;
-    height: 200px; */
+    max-width: 300px;
+    height: auto;
+    max-height: 280px;
 }
 
 #parkTitlesDiv {
+    text-align: center;
+    width: 80%;
     color: white;
-    /* padding: 10px;
-    margin: 10px; */
 }
 
-#parkTitlesDiv h1 {
-    font-family: "Arial";
-    font-weight: bold;
+#highlights {
+    text-align: center;
+    padding: 50px;
 }
 
-#parkTitlesDiv h1 {
-    font-size: 4em;
-    /* margin: 10px */
+#section {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
 }
 
-#parkTitlesDiv h2 {
-    font-size: 2em;
+#section li {
+    font-size: 1em;
 }
 
-section {
-    /* padding: 20px;
-    margin: 20px; */
+#contacts {
+    text-align: center;
 }
 
 /**
@@ -72,22 +78,44 @@ section.no-background {
     padding: 0; */
 }
 
-#page-links ul {
+.page-links ul {
     /* margin: 0px;
     padding: 0px; */
 }
 
-#page-links ul li {
+.page-links ul li {
     display: inline-block;
-    /* margin-top: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    width: 40%;
-    margin-left: 45px; */
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #D01114;
+    padding: 5px;
+    text-align: center;
     /* text-align: center; */
+
+    /* Need the animation back from hover */
+    transition: background-color 500ms ease;
 }
 
-#page-links ul li a {
+/* Want the book now buttons to activate on hover. NIce smooth animation to
+highlight to the user it is an element they can interact with
+
+Cant seem to have scale and the shake animation at the same time. Not necessarily a bad
+thing as it may be too much*/
+.page-links ul li:hover {
+    background-color: #109710;
+    /* transform: scale(2); */
+    /* scale needs fixing */
+    transition: background-color 500ms ease;
+    /* transition-delay: 500ms ease; */
+    /* shake animation */
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+
+.page-links ul li a {
     color: white;
     font-size: 2em;
     text-decoration: none;
@@ -105,10 +133,12 @@ section.no-background {
 }
 
 #main-event {
-    /* height: 100%;
+    height: 100%;
     float: left;
-    width: 40%;
-    position: relative; */
+    width: 50%;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
 }
 
 #secondary-events {
@@ -119,8 +149,8 @@ section.no-background {
 }
 
 #secondary-events div.event-container {
-    /* position: relative;
-    height: 50%; */
+    position: relative;
+    height: 50%;
 }
 
 .event-description {
@@ -134,22 +164,35 @@ section.no-background {
  * CTA Book now styles
  */
 
-.bookNow-link p {
+#bookNow-link li {
 
-    /* display: inline-block;
+    display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 85px;
     margin-right: 85px;
     height: 85%;
-    width: 85%; */
+    width: 85%;
     background-color: #D01114;
-    /* text-align: center */
+    text-align: center;
+}
+
+#bookNow-link2 li {
+
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+    margin-right: 85px;
+    height: 85%;
+    width: 85%;
+    background-color: #D01114;
+    text-align: center;
 }
 
 .bookNow-link p a {
     color: white;
-    font-size: 2em;
+    /* font-size: 2em; */
     text-decoration: none;
     /* display: block;
     padding: 40px;
@@ -166,24 +209,24 @@ section.no-background {
 }
 
 #main-ride {
-    /* float: left;
-    width: 80%;
+    float: left;
+    width: 100%;
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    position: relative; */
+    position: relative;
 }
 
 #other-rides ul li {
-    /* display: inline-block;
-    padding: 10px;
+    display: inline-block;
+    padding: 35px;
     position: relative;
     top: 80px;
-    right: 0px;
+    right: 10px;
     left: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     width: 40%;
-    height: 15%; */
+    height: 20%;
 
 }
 
@@ -192,84 +235,64 @@ section.no-background {
     width: 100px !important; */
 }
 
-.park-titles-div > h1 {
-    font-size: 33pt;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-.park-titles-div > h2 {
-    font-size: 24pt;
-    font-family: Arial, Helvetica, sans-serif;
-    columns: white;
-}
-
-.title-div > h1 {
-    font-size: 30pt;
-}
-
 .title-div > p:nth-child(odd) {
     /* background-color: #e68301; */
     color: black;
-    font-size: 16pt;
+    /* font-size: 16pt; */
 }
+
 .title-div > p:nth-child(even) {
     background-color: #109710;
     color: white;
-    font-size: 15pt;
+    /* font-size: 15pt; */
 }
 
 .main-offer-image {
     /* width: 50% !important */
 }
 
-.special-offers-section > h1 {
-    font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.special-offers-section > h4 {
-    font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .sub-offer-image {
     /* width: 25% !important */
 }
 
-.tickets-items-div > h3 
-{
-    font-size : 25pt;
-    /* text-align : center; */
+li {
+    font-size: 1em;
+
 }
-.ticket-type > h4 
-{
-    font-size : 15pt;
-} 
-li{
-    font-size : 15pt;
-    
-}
-.ticket-image 
-{
+
+.ticket-image {
     /* display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%; */
 }
-.footer > h3
-{
-    /* text-align : center; */
-    color:black;
-    font-size:25pt;
-}
-.social-media-links > span
-{
-    /* display: block;
+
+.social-media-links > span {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 11.5%; */
-    
+    width: 25%;
+    padding: 5px;
+
+}
+
+/* animation to make the currently hovered social media pop slightly */
+/* .social-media-links-animation {
+    transition: transform 500ms ease;
+}
+
+.social-media-links-animation:hover {
+    transform: translate(0px,-25px);
+    transition: transform 500ms ease;
+} */
+
+.social-media-links > span a img {
+    transition: transform 500ms ease;
+}
+
+.social-media-links > span a img:hover {
+    transform: translate(0px, -25px);
+    transition: transform 500ms ease;
 }
 
 .ticket-image {
@@ -283,4 +306,138 @@ li{
 
 .restaurant-image {
     /* width: 50% !important */
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: normal;
+    font-size: 4.5em;
+    color: white;
+}
+
+h2 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3em;
+    color: white;
+}
+
+h3 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2em;
+    color: white;
+}
+
+h4 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5em;
+    color: white;
+}
+
+.text-over-image {
+    display: inline-block;
+    margin: 1px;
+    position: relative;
+}
+
+.text-over-image img {
+    width: 100%;
+    height: 100%;
+
+    transition: 250ms;
+}
+
+.text-over-image :not(img) {
+    position: absolute;
+    top: 30% !important;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    width: 100%;
+    opacity: 0;
+    transition: 250ms;
+}
+
+.text-over-image p {
+    top: 70% !important;
+}
+
+.text-over-image:hover img {
+    filter: blur(3px) brightness(40%);
+    transition: 250ms;
+}
+
+.text-over-image h3 {
+    top: 50%;
+}
+
+.text-over-image:hover :not(img) {
+    opacity: 1;
+    transition: 250ms;
+}
+
+/* Kayframes for the shake animation */
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+#socialmedia {
+    text-align: center
+
+}
+
+#themeParkMap {
+    text-align: center
+}
+
+#accomodation {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#dining {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#specialOffersDiv {
+    text-align: center;
+}
+
+#ticketdescriptions {
+    text-align: center;
+
 }
