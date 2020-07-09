@@ -22,10 +22,10 @@ Games - Amusement_Park
 	https://www.twenty20.com/photos/909708a8-d811-4354-a757-4cf6bdec6b6f
 
 MainRide - Amusement_Park
-	https://www.dreamstime.com/photos-images/water-park.html
+	https://images.dailyhive.com/20171121101458/Ferris-wheel-Lower-Lonsdale-BIA.jpg
 
 FirstSecondaryEvent - Amusement_Park
-	https://pointblankpromo.com/en/2018/04/20/en-game-centre/
+	https://media.tacdn.com/media/attractions-splice-spp-674x446/06/71/1c/ee.jpg
 
 MainEvent - Amusement_Park
 	https://www.armadamotel.com/4-wildwood-crest-nj-activities-for-a-memorable-vacation/splash-zone-water-park/
