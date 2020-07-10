@@ -337,6 +337,7 @@ h4 {
 
 .text-over-image {
     margin: 1px;
+    position: relative;
 }
 
 .text-over-image img {
