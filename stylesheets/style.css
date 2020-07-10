@@ -1,5 +1,7 @@
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .main-template {
@@ -7,11 +9,6 @@ ul {
     font-size: 1em;
     color: white;
     background-color: #006CB6;
-
-
-    /* #006CB6
-#F8C706
-#D01114 */
 }
 
 .main-template > section {
