@@ -72,8 +72,7 @@ section.no-background {
 }
 
 .page-links ul {
-    /* margin: 0px;
-    padding: 0px; */
+   text-align: center;
 }
 
 .page-links ul li {
@@ -332,13 +331,11 @@ h4 {
 
 .text-over-image {
     margin: 1px;
-    position: relative;
 }
 
 .text-over-image img {
     width: 100%;
     height: 100%;
-
     transition: 250ms;
 }
 
