@@ -54,28 +54,43 @@
     </div>
 </header>
 
-<section id="highlights">
+<section id="highlights" >
+    <!-- IMAGES MUST BE 600px height maximum -->
     <div class="slideshow-container">
         <div class="mySlides">
-            <span class="numbertext">1 / 4</span>
-            <p> “insert park news”</p>
+            <div class="text-over-image">
+                <p> “insert park news”</p>
+            </div>
         </div>
         <div class="mySlides">
-            <img src="assets\Event01 - Amusment_Park_Edited.jpg">
-            <span class="numbertext">2 / 4</span>
-            <div class="text">name of event</div>
-            <p> “insert special offers news”</p>
+            <div class="text-over-image">
+                <img src="assets\Event01 - Amusment_Park_Edited.jpg">
+                <h2 class="text">name of event</h2>
+                <p> “insert special offers news”</p>
+            </div>
         </div>
         <div class="mySlides">
-            <span class="numbertext">3 / 4</span>
-            <img src="assets\Ride01-Amusement_Park.jpg">
-            <div class="text">name of ride / description</div>
-            <div class="mySlides">
-                <span class="numbertext">4 / 4</span>
+            <div class="text-over-image">
+                <img src="assets\Ride01-Amusement_Park.jpg">
+                <h2 class="text">name of ride</h2>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="mySlides">
+            <div class="text-over-image">
+                <h2 class="text">Some Header`</h2>
                 <p> “insert special offers news”</p>
             </div>
         </div>
     </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <script src="js/slider.js"></script>
 </section>
 
 <section id="page-links" class="no-background page-links">
