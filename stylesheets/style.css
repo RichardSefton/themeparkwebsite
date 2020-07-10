@@ -201,12 +201,17 @@ thing as it may be too much*/
     color: white;
 }
 
+#rides h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 #main-ride {
-    float: left;
     width: 100%;
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 }
 
