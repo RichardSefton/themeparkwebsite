@@ -133,6 +133,11 @@ thing as it may be too much*/
     position: relative;
 }
 
+#main-event div.event-container {
+    position: relative;
+    height: 100%;
+}
+
 #secondary-events {
     float: right;
     width: 50%;
@@ -141,16 +146,22 @@ thing as it may be too much*/
     overflow: hidden;
 }
 
+#events .text-over-image {
+    position: static;
+    height: 100%;
+}
+
+#events .text-over-image p {
+    width: auto;
+}
+
 #secondary-events div.event-container {
     position: relative;
     height: 50%;
 }
 
 .event-description {
-    /* position: absolute;
-    color: white;
-    bottom: 20px;
-    right: 60px; */
+    height: 100%;
 }
 
 /**
@@ -368,6 +379,7 @@ h4 {
     top: 60% !important;
     padding-left: 40px;
     padding-right: 40px;
+    width: 100%;
 }
 
 .text-over-image:hover img {
