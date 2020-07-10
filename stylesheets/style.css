@@ -122,6 +122,8 @@ thing as it may be too much*/
  */
 #events {
     height: 553px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 #main-event {
@@ -261,6 +263,10 @@ li {
     margin-left: auto;
     margin-right: auto;
     width: 50%; */
+}
+
+.ticket-type {
+    
 }
 
 .social-media-links > span {
