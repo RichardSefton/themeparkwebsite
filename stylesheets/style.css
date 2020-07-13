@@ -460,6 +460,12 @@ h4 {
     text-align: center;
 }
 
+#specialOffersDiv img {
+    width:auto;
+    height:auto;
+}
+
+
 #ticketdescriptions {
     display: flex;
     padding: 5px;
@@ -470,6 +476,7 @@ h4 {
     align-content: center;
 
 }
+
 
 #tblOne {
     flex: 1;
@@ -482,6 +489,7 @@ h4 {
     border: white;
     border-style: dashed;
     border-width: 4px;
+   
 }
 
 
@@ -496,6 +504,7 @@ h4 {
     border: white;
     border-style: dashed;
     border-width: 4px;
+    
 }
 
 #tblThree {
@@ -509,6 +518,7 @@ h4 {
     border: white;
     border-style: dashed;
     border-width: 4px;
+ 
 }
 
 #ticketdescriptions ul {
