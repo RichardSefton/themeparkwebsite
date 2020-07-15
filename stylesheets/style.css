@@ -350,12 +350,15 @@ h4 {
 .text-over-image {
     margin: 1px;
     position: relative;
+    overflow: hidden;
+    /* transform: scale(1.05); */
 }
 
 .text-over-image img {
     width: 100%;
     height: 100%;
     transition: 250ms;
+    
 }
 
 .text-over-image :not(img) {
@@ -366,6 +369,7 @@ h4 {
     color: white;
     opacity: 0;
     transition: 250ms;
+
 }
 
 .text-over-image h3 {
@@ -378,8 +382,8 @@ h4 {
 
 .text-over-image p {
     top: 60% !important;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: -40px;
+    padding-right: -40px;
     width: 100%;
 }
 
@@ -570,19 +574,19 @@ footer section ul li a {
 .slideshow-container {
     max-width: 100%;
     position: relative;
-    margin: auto;
-    height: 625px !important;
+    /* margin: auto; */
+    /* height: 732 !important; */
 }
 
 .mySlides {
     display: none;
-    height: 400px;
+    /* height: 732px; */
 }
 
 .mySlides img {
-    max-width: 100%;
-    height: 600px !important;
-    width: auto !important;
+    /* max-width: 100%; */
+    /* height: 732px !important; */
+    width: 100% !important;
     /* position: relative; */
 }
 
