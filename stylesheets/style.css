@@ -2,6 +2,14 @@ ul {
     list-style-type: none;
 }
 
+ul#horizontal-list li{
+    /*list-style-type: horizontal;*/
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 40px;
+    padding-bottom: 1px;;
+}
+
 .main-template {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
@@ -322,8 +330,20 @@ h3 {
 
 h4 {
     font-family: 'Architects Daughter', cursive;
+    font-size: 1.0em;
+    color: white;
+}
+
+h5 {
+    font-family: 'Architects Daughter', cursive;
     font-size: 1.5em;
     color: white;
+}
+
+h6 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.2em;
+    color: black;
 }
 
 .text-over-image {
@@ -346,7 +366,7 @@ h4 {
     text-align: center;
     color: white;
     width: 100%;
-    opacity: 0;
+    opacity: 1;
     transition: 250ms;
 }
 
@@ -414,6 +434,122 @@ h4 {
 
 #themeParkMap {
     text-align: center
+}
+
+
+.shape-over-image {
+    display: inline-block;
+    margin: 1px;
+    position: relative;
+}
+
+.shape-over-image img {
+    width: 100%;
+    height: 100%;
+    transition: 250ms;
+}
+
+.shape-over-image-style{
+    position: absolute;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.shape-over-image-01 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+  }
+  
+  .shape-over-image-02 {
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+  }
+
+  .shape-over-image-03 {
+    position: absolute;
+    top: 30%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+  }
+
+  .shape-over-image-04 {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+
+  .shape-over-image-05 {
+    position: absolute;
+    top: 57%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+  
+.shape-over-image-06 {
+    position: absolute;
+    top: 55%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+  }
+
+  .shape-over-image-07 {
+    position: absolute;
+    top: 57%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+  }
+
+  .shape-over-image-08 {
+    position: absolute;
+    top: 80%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+  }
+
+  .shape-over-image-09 {
+    position: absolute;
+    top: 80%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+  }
+
+  .shape-over-image-010 {
+    position: absolute;
+    top: 73%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+  }
+
+  .shape-over-image-011 {
+    position: absolute;
+    top: 78%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+  }
+
+.shape-over-image p {
+    top: 70% !important;
+    position: absolute;
+    top: 30% !important;
+    z-index: 1;
+    text-align: center;
+    background-color: beige;
+    color: black;
+    /*padding-left: 20px;*/
+    padding-right: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;;
+    border-radius: 50%;
+    width: 100%;
+    opacity: 1;
+    transition: 250ms;
 }
 
 #accomodation {
