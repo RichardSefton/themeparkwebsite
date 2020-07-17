@@ -50,6 +50,12 @@ instagram.png - https://www.freepnglogos.com/pics/instagram-logo-png
 
 youtube.png - http://pngimg.com/imgs/logos/youtube/
 
+front-of-bus.png - https://www.flaticon.com/free-icon/front-of-bus_308
+
+subway.png - https://www.flaticon.com/free-icon/train_565356?term=train&page=2&position=24
+
+pickup-car.png - https://www.flaticon.com/free-icon/car_2087658?term=car&page=1&position=5
+
 themeParkMap.jpg - https://www.freepik.com/premium-vector/amusement-park-map-family-entertainment-festival-attractions-carousel-roller-coaster-ferris-wheel-illustration_7395381.htm
 
 hotel1.jpg - https://www.westgateresorts.com/hotels/south-carolina/myrtle-beach/westgate-myrtle-beach-oceanfront-resort/accommodations/double-amusement-park-view/
