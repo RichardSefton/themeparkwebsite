@@ -253,15 +253,22 @@ thing as it may be too much*/
     width: 100px !important; */
 }
 
-.title-div > p:nth-child(odd) {
-    /* background-color: #e68301; */
-    color: black;
+.title-container p:nth-child(odd) {
+    padding: 12px;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1em;
+    background-color: #109710;
+
     /* font-size: 16pt; */
 }
 
-.title-div > p:nth-child(even) {
-    background-color: #109710;
-    color: white;
+.title-container p:nth-child(even) {
+    background-color: #F8C706;
+    padding:12px;
+    font-weight: bolder;
+    font-size: 1.1em;
+    color: black;
     /* font-size: 15pt; */
 }
 
@@ -776,4 +783,18 @@ footer .social-media-links > span {
 #titleDiv {
     padding: 20px;
     margin-bottom: 20px;
+}
+
+
+.title-container {
+    /* padding: 50px; */
+    border: white;
+    border-style: dashed;
+    border-width: 4px;
+    background: #109710;
+}
+
+.title-div p {
+    color: white;
+    text-align: center;
 }
