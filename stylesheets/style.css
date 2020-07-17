@@ -383,7 +383,7 @@ h6 {
     z-index: 1;
     text-align: center;
     color: white;
-    width: 100%;
+   /* width: 100%; */
     opacity: 0;
     transition: 250ms;
 
@@ -399,9 +399,9 @@ h6 {
 
 .text-over-image p {
     top: 60% !important;
-    padding-left: -40px;
-    padding-right: -40px;
-    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* width: 100%; */
 }
 
 .text-over-image:hover img {
