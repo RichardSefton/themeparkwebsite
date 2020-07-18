@@ -580,6 +580,7 @@ h6 {
     width: 100%;
     opacity: 1;
     transition: 250ms;
+    padding-left: 10px;
 }
 
 #accomodation {
@@ -613,6 +614,10 @@ h6 {
     text-align: center;
     align-content: center;
 
+}
+
+.ticket-type {
+    padding: 20px;
 }
 
 
