@@ -160,7 +160,6 @@ thing as it may be too much*/
 }
 
 #events .text-over-image {
-    position: static;
     height: 100%;
 }
 
@@ -241,13 +240,13 @@ thing as it may be too much*/
 
 #other-rides ul li {
     display: inline-block;
-    padding: 35px;
+  /*  padding: 35px;  /*
     position: relative;
-    top: 80px;
+  /*  top: 80px;
     right: 10px;
     left: 100px;
-    margin-bottom: 100px;
-    width: 40%;
+    margin-bottom: 100px;  */
+    width: 49.85%;
     height: 20%;
 
 }
@@ -403,9 +402,9 @@ h6 {
 
 .text-over-image p {
     top: 60% !important;
-    padding-left: 40px;
-    padding-right: 40px;
-    /* width: 100%; */
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
 }
 
 .text-over-image:hover img {
