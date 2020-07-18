@@ -22,10 +22,10 @@ Games - Amusement_Park
 	https://www.twenty20.com/photos/909708a8-d811-4354-a757-4cf6bdec6b6f
 
 MainRide - Amusement_Park
-	https://images.dailyhive.com/20171121101458/Ferris-wheel-Lower-Lonsdale-BIA.jpg
+	https://www.dreamstime.com/photos-images/water-park.html
 
 FirstSecondaryEvent - Amusement_Park
-	https://media.tacdn.com/media/attractions-splice-spp-674x446/06/71/1c/ee.jpg
+	https://pointblankpromo.com/en/2018/04/20/en-game-centre/
 
 MainEvent - Amusement_Park
 	https://www.armadamotel.com/4-wildwood-crest-nj-activities-for-a-memorable-vacation/splash-zone-water-park/
@@ -50,18 +50,37 @@ instagram.png - https://www.freepnglogos.com/pics/instagram-logo-png
 
 youtube.png - http://pngimg.com/imgs/logos/youtube/
 
+front-of-bus.png - https://www.flaticon.com/free-icon/front-of-bus_308
+
+subway.png - https://www.flaticon.com/free-icon/train_565356?term=train&page=2&position=24
+
+pickup-car.png - https://www.flaticon.com/free-icon/car_2087658?term=car&page=1&position=5
+
 themeParkMap.jpg - https://www.freepik.com/premium-vector/amusement-park-map-family-entertainment-festival-attractions-carousel-roller-coaster-ferris-wheel-illustration_7395381.htm
 
-hotel1, 2, 3.jpg - https://www.familyvacationcritic.com/best-theme-park-resorts-for-families/art/
+hotel1.jpg - https://www.westgateresorts.com/hotels/south-carolina/myrtle-beach/westgate-myrtle-beach-oceanfront-resort/accommodations/double-amusement-park-view/
 
-restaurant 1.jpg - https://www.marriott.com/hotels/hotel-information/restaurant/hkgop-hong-kong-ocean-park-marriott-hotel/
+hotel2.jpg - https://www.westgateresorts.com/hotels/florida/orlando/westgate-vacation-villas-resort/water-park/
+
+hotel3.jpg - https://www.oceanpark.com.hk/en/hotels
+
+restaurant 1.jpg - https://www.westgateresorts.com/hotels/florida/orlando/westgate-palace-resort/dining/
 
 restaurant 2.jpg - https://www.oceanpark.com.hk/en/experience/dining-and-shopping/restaurants
 
-restaurant 3.jpg - https://www.10best.com/awards/travel/best-amusement-park-restaurant-2019/
+restaurant 3.jpg - https://www.westgateresorts.com/hotels/nevada/las-vegas/westgate-las-vegas-resort-casino/dining/
 
 css translate reference https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate
 
 css shake animation - https://www.w3schools.com/howto/howto_css_shake_image.asp
 
 css image text https://www.youtube.com/watch?v=W0ubfqwd4G4
+
+round-rides https://i.insider.com/52fe42f5eab8eaf235063b86?width=1100&format=jpeg&auto=webp
+
+jurassicWater http://www.jurassicworld.com/sites/default/files/2016-10/singapore_tppi954x455.jpg
+
+haloween pumpkin https://houseofgeekery.files.wordpress.com/2018/09/halloweencvr.jpg
+
+corkscrew https://cdn.abcotvs.com/dip/images/264548_Corkscrew_(Cedar_Point)_01.jpg?w=1280&r=16%3A9
+

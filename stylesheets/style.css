@@ -1,5 +1,11 @@
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page-title {
+    text-align: center;
 }
 
 ul#horizontal-list{
@@ -11,7 +17,7 @@ ul#horizontal-list{
 }
 ul#horizontal-list li{
     list-style-type: none;
-    
+
 }
 
 .main-template {
@@ -19,11 +25,6 @@ ul#horizontal-list li{
     font-size: 1em;
     color: white;
     background-color: #006CB6;
-
-
-    /* #006CB6
-#F8C706
-#D01114 */
 }
 
 .main-template > section {
@@ -84,8 +85,7 @@ section.no-background {
 }
 
 .page-links ul {
-    /* margin: 0px;
-    padding: 0px; */
+    text-align: center;
 }
 
 .page-links ul li {
@@ -134,7 +134,9 @@ thing as it may be too much*/
  * Events styles
  */
 #events {
-    /* height: 400px; */
+    height: 553px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 #main-event {
@@ -142,15 +144,28 @@ thing as it may be too much*/
     float: left;
     width: 50%;
     position: relative;
-    padding: 10px;
-    margin: 10px;
+}
+
+#main-event div.event-container {
+    position: relative;
+    height: 100%;
 }
 
 #secondary-events {
-    /* float: right;
-    width: 40%;
+    float: right;
+    width: 50%;
     position: relative;
-    height: 100% */
+    height: 100%;
+    overflow: hidden;
+}
+
+#events .text-over-image {
+    position: static;
+    height: 100%;
+}
+
+#events .text-over-image p {
+    width: auto;
 }
 
 #secondary-events div.event-container {
@@ -159,10 +174,7 @@ thing as it may be too much*/
 }
 
 .event-description {
-    /* position: absolute;
-    color: white;
-    bottom: 20px;
-    right: 60px; */
+    height: 100%;
 }
 
 /**
@@ -213,12 +225,17 @@ thing as it may be too much*/
     color: white;
 }
 
+#rides h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 #main-ride {
-    float: left;
     width: 100%;
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 }
 
@@ -351,31 +368,44 @@ h6 {
 }
 
 .text-over-image {
-    display: inline-block;
     margin: 1px;
     position: relative;
+    overflow: hidden;
+    /* transform: scale(1.05); */
 }
 
 .text-over-image img {
     width: 100%;
     height: 100%;
-
     transition: 250ms;
+
 }
 
 .text-over-image :not(img) {
     position: absolute;
-    top: 30% !important;
+    top: 20% !important;
     z-index: 1;
     text-align: center;
     color: white;
-    width: 100%;
-    opacity: 1;
+   /* width: 100%; */
+    opacity: 0;
     transition: 250ms;
+
+}
+
+.text-over-image h3 {
+    width: 100%;
+}
+
+.text-over-image h2 {
+    width: 100%;
 }
 
 .text-over-image p {
-    top: 70% !important;
+    top: 60% !important;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* width: 100%; */
 }
 
 .text-over-image:hover img {
@@ -461,7 +491,7 @@ h6 {
     transform: translate(-50%, -50%);
     background-color: white;
   }
-  
+
   .shape-over-image-02 {
     position: absolute;
     top: 15%;
@@ -489,7 +519,7 @@ h6 {
     left: 15%;
     transform: translate(-50%, -50%);
   }
-  
+
 .shape-over-image-06 {
     position: absolute;
     top: 55%;
@@ -540,6 +570,9 @@ h6 {
     padding-right: 20px;
     border-radius: 50%;
     width: 100%;
+    opacity: 1;
+    transition: 250ms;
+    padding-left: 10px;
 }
 
 #accomodation {
@@ -558,6 +591,12 @@ h6 {
     text-align: center;
 }
 
+#specialOffersDiv img {
+    width: auto;
+    height: auto;
+}
+
+
 #ticketdescriptions {
     display: flex;
     padding: 5px;
@@ -569,16 +608,23 @@ h6 {
 
 }
 
+.ticket-type {
+    padding: 20px;
+}
+
+
 #tblOne {
     flex: 1;
     height: auto;
     width: 300px;
     display: inline-block;
-    background-color: #006CB6;
+    background-color: #F8C706;
     margin-left: 5px;
     margin-right: 5px;
-    border: 2px solid;
-    border-color: black;
+    border: white;
+    border-style: dashed;
+    border-width: 4px;
+
 }
 
 
@@ -587,11 +633,13 @@ h6 {
     height: auto;
     width: 300px;
     display: inline-block;
-    background-color: #D01114;
+    background-color: #006CB6;
     margin-left: 5px;
     margin-right: 5px;
-    border: 2px solid;
-    border-color: black;
+    border: white;
+    border-style: dashed;
+    border-width: 4px;
+
 }
 
 #tblThree {
@@ -599,11 +647,13 @@ h6 {
     height: auto;
     width: 300px;
     display: inline-block;
-    background-color: #006CB6;
+    background-color: #F8C706;
     margin-left: 5px;
     margin-right: 5px;
-    border: 2px solid;
-    border-color: black;
+    border: white;
+    border-style: dashed;
+    border-width: 4px;
+
 }
 
 #ticketdescriptions ul {
@@ -612,8 +662,7 @@ h6 {
 }
 
 #ticketdescriptions li {
-    border: 1px solid;
-    border-color: black;
+    color: white;
 }
 
 /**
@@ -655,25 +704,24 @@ footer section ul li a {
 .slideshow-container {
     max-width: 100%;
     position: relative;
-    margin: auto;
-    height: 625px !important;
+    /* margin: auto; */
+    /* height: 732 !important; */
 }
 
 .mySlides {
     display: none;
-    height: 400px;
+    /* height: 732px; */
 }
 
 .mySlides img {
-    max-width: 100%;
-    max-height: auto;
-    height: 600px !important;
-    width: auto !important;
+    /* max-width: 100%; */
+    /* height: 732px !important; */
+    width: 100% !important;
     /* position: relative; */
 }
 
-  /* The dots/bullets/indicators */
-  .dot {
+/* The dots/bullets/indicators */
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -682,29 +730,37 @@ footer section ul li a {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
+}
 
-  .active, .dot:hover {
+.active, .dot:hover {
     background-color: #717171;
-  }
+}
 
-  /* Fading animation */
-  .fade {
+/* Fading animation */
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
+}
 
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
 
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
 
 /*
  * Override social media span block to
@@ -712,4 +768,9 @@ footer section ul li a {
 footer .social-media-links > span {
     display: inline-block;
     width: 100%;
+}
+
+#titleDiv {
+    padding: 20px;
+    margin-bottom: 20px;
 }

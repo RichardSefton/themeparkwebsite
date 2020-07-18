@@ -13,7 +13,6 @@
 
         <!-- Page title -->
         <title>Plan Your Visit</title>
-
         <!-- Base url. Gonna put it in but comment it out. -->
         <!--<base href="http://localhost/"> -->
 
@@ -43,9 +42,9 @@
             <div id="parkLogoDiv" class="park-logo-div">
                 <!-- Image to be placed in assets folder and referenced properly -->
                 <a href="index.html">
-                    <img src="assets\Logo - Amusement_Park_Edited.png" class="park-logo-img" alt="Site Logo">
+                    <img src="assets\Logo - Amusement_Park_Edited.png" class="park-logo-img">
                 </a>
-            </div> 
+            </div>
             <div id="parkTitlesDiv" class="park-titles-div">
                 <h1>The 16 Wonders</h1>
                 <h2>There is nowhere more fun than here</h2>
@@ -65,65 +64,57 @@
             </nav>
         </section>
 
-        <section id="pageTitle">
-            <h2>Plan your visit</h2>
-            <!-- shortcut links to different page sections -->
+        <section id="titleDiv" class="title-div">
+            <h2 style='text-align:center'>Plan Your Visit!</h2>
+            <!-- However we're formatting the content to go in this section can go in here -->
+            <p>Plan your visit to the 16 Wonders with helpful transport information to and around the Park!</p>
+        </section>
+
+        <section id="page-links" class="no-background page-links">
+            <nav>
+                <ul class="horizontal_menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="tickets.html">TICKETS</a></li>
+                </ul>
+            </nav>
         </section>
 
         <section id="transportation">
             <h2>How to get to us</h2>
-            <div id="busTransport">
                 <!-- Directions for travel by public transport -->
                 <!-- links to bus time tables -->
-                <style>
-                    table, th, td{
-                        border: 1px solid black;
-                        margin: 20px;
-                    }
-                </style>              
+            <div id="busTransport">
                 <h3>Bus</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Bus No.</th>
-                            <th>From</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>AB-01</td>
-                            <td>Downtown</td>
-                        </tr>
-                        <tr>
-                            <td>BB-12</td>
-                            <td>City B</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <img src="assets/front-of-bus.png" width="50" height="50">
+                <p>Guests may take any 'A' or 'C' bus routes to the 16 Wonders, which runs regularly during the day back and forth to downtown.</p>
+                <p>Route: A, C from 6:00 AM to 12:05 AM everyday</p>
             </div>
             <div id="trainTransport">
                 <h3>Train</h3>
+                <img src="assets/subway.png" width="50" height="50">
                 <!-- Directions for travel by train -->
-                <ul>
-                    <li>Take the Blue Line and get off at Theme Park #16 Station for direct access to park south entrance</li>
-                    <li>Take the Green Line and get off at King Station for 5 minutes walk to park north entrance</li>
-                </ul>
+                <p>Take the Blue Line and get off at the 16 Wonders Station for direct access to park south entrance</p>
+                <p>Take the Green Line and get off at King Station for 5 minutes walk to park north entrance</p>
             </div>
             <div id="carTransport">
                 <h3>Car</h3>
+                <img src="assets/pickup-car.png" width="50" height="50">
                 <!-- From the north -->
-                <ul>
-                    <li>Drive through the Northern Tunnel from Downtown via the no.11 highway. The tunnel fee is US$5(one-way). After the tunnel, you will be on King Road. Turn right into Amusement Park #16 to reach the North Entrance.</li>
-                </ul>
+                <p>Drive through the Northern Tunnel from Downtown via the no.11 highway. The tunnel fee is US$5(one-way). After the tunnel, you will be on King Road. Turn right into the 16 Wonders to reach the North Entrance.</p>
                 <!-- From the south -->
-                <ul>
-                    <li>Drive through the Sourthern Bridge from Harbour via the Queen Road. Turn Right to Ewdard Road and turn left to the Amusement Park Road to reach the South Entrance. </li>
-                </ul>
+                <p>Drive through the Sourthern Bridge from Harbour via the Queen Road. Turn Right to Ewdard Road and turn left to the Amusement Park Road to reach the South Entrance.</p>
             </div>
             <div id="map">
                 <img src="mapfromtrainstation">
-                
             </div>
+        </section>
+
+        <section id="bookNow-link2" class="no-background page-links">
+            <nav>
+                <ul>
+                    <li><a href=tickets.html>Book Now</a></li>
+                </ul>
+            </nav>
         </section>
 
         <section id="themeParkMap" class="theme-park-map">
@@ -191,31 +182,42 @@
                 <ul>
                     <li>
                         <div class="text-over-image">
-                            <h3>PLAYHOUSE</h3>
+                            <h3>PARK VIEW HOTEL</h3>
+                            <p>The Amustment Park View guestroom offers fabulous view of the entire 16 Wonders.
+                            <br>
+                            <br>Check the park from the balcony and take a walk to experience the park within 5 minutes!
+                            </p>
                             <img src="assets/hotel 1.jpg" class="hotel-image" alt="abc hotel">
-                            <p>This playhouse inspired hotel, is a dream come true for your children. Equipped with numerous slides
-                                around the hotel and jungle gyms in various places, this is the place for them. Enjoy an all-you-can-eat buffet 
-                                experience, and a chocolate fountain perfect for breakfast or dessert.
                         </div>
                     </li>
                     <li>
                         <div class="text-over-image">
-                            <h3>OAKWOOD LODGE</h3>
+                            <h3>WATER WORLD RESORT</h3>
+                            <p>It is a good time to splash and enjoy the sunlight in the Water World.
+                            <br>
+                            <br>Spend a whole day at a huge poor for the family to get wet and relax!
+                            </p>
                             <img src="assets/hotel 2.jpg" class="hotel-image" alt="def hotel">
-                            <p>Enjoy the expereince of being in your own cabin, right here on the park grounds. Get the authentic lodge
-                                lifestyle with real fireplaces, and an oak scent throughout the lodge.
-                            </p>
                         </div>
                     </li>
                     <li>
                         <div class="text-over-image">
-                            <h3>THE BELLEVIEW</h3>
-                            <img src="assets/hotel 3.jpg" class="hotel-image" alt="ghi hotel">
-                            <p>This all inclusive hotel ensures that your stay is easy, and stress free. Enjoy an amazing view of the park's grounds
-                                from any floor. Go for a dip in the pool, for a quiet serene swim, exclusive to this hotel.
+                            <h3>FORREST INN</h3>
+                            <p>This is an ideal place to stay your vacation in the vibrant city.
+                            <br>
+                            <br>Nature-inspired, modern design and versatile event rooms are waiting for you!
                             </p>
+                            <img src="assets/hotel 3.jpg" class="hotel-image" alt="ghi hotel">
                         </div>
                     </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="bookNow-link2" class="no-background page-links">
+            <nav>
+                <ul>
+                    <li><a href=tickets.html>Book Now</a></li>
                 </ul>
             </nav>
         </section>
@@ -226,26 +228,32 @@
                 <ul>
                     <li>
                         <div class="text-over-image">
-                            <h3>LA CREME BRULEE</h3>
+                            <h3>SPORTY BAR</h3>
+                            <p>Chill and savour a delicious drink combines with a variety of sport on live TV.
+                            <br>
+                            <br>Come enjoy the atmosphere as you sit back and take a break from the park adventures!
+                            </p>
                             <img src="assets/restaurant 1.jpg" class="restaurant-image" alt="English restaurant">
-                            <p>Located in The Belleview, this restaurant brings top cuisine straight to your plate. Enjoy our extensive line 
-                                of pinots and reds from our coveted wine bar.</p>
                         </div>
                     </li>
                     <li>
                         <div class="text-over-image">
-                            <h3>UNDER THE SEA</h3>
+                            <h3>CANTON ASSEMBLY</h3>
+                            <p>Dim sum, barbecued Siu Mei and various Asian cuisines are served.
+                            <br>
+                            <br>This is a place to satisfy your hunger while watching the fantastic views of the aquarium!
+                            </p>
                             <img src="assets/restaurant 2.jpg" class="restaurant-image" alt="Chinese restaurant">
-                            <p>Located in Playhouse, this restaurant brings seafood to the table. Dine with Nemo and his friends
-                                in this kid-friendly dining hall.</p>
                         </div>
                     </li>
                     <li>
                         <div class="text-over-image">
-                            <h3>THE PINE</h3>
+                            <h3>BRILLIANT ITALIANO</h3>
+                            <p>Italian cuisine are offered, including pizzas, pastas and desserts.
+                            <br>
+                            <br>Enjoy the unforgettable family recipes with authentic Italian cooking at an attractive price!
+                            </p>
                             <img src="assets/restaurant 3.jpg" class="restaurant-image" alt="Italian restaurant">
-                            <p>Located in Oakwood Lodge, this restaurant is known for its wood oven pizza and smoked salmon.
-                                Enjoy the naturesque themes of this dining establishment.</p>
                         </div>
                     </li>
                 </ul>
@@ -254,40 +262,52 @@
 
         <section id="specialNeeds" style='text-align: center'>
             <h2>Special needs access</h2>
-            <p>Guests with any type of disability can have a great time at Amusement Park #16. Assistance for special needs is offered from the park's Guest Service centers, found near both the South and the North Entrance.</p>
+            <p>Guests with any type of disability can have a great time at the 16 Wonders. Assistance for special needs is offered from the park's Guest Service centers, found near both the South and the North Entrance.</p>
+        </section>
+
+        <section id="bookNow-link2" class="no-background page-links">
+            <nav>
+                <ul>
+                    <li><a href=tickets.html>Book Now</a></li>
+                </ul>
+            </nav>
         </section>
 
         <footer>
-            <div id="section" class="footer" style="border:1px solid; background-color:#F8C706;">
+            <section id="section" class="footer" style="background-color:#F8C706;">
                 <h3>Sections</h3>
                 <nav id="sectionsfooter" class="section-links"></nav>
-                    <ul>
-                        <li> <a href="index.html" style="background-color:white;">Home</a> </li>
-                        <li> <a href="tickets.html" style="background-color:white;">Tickets</a> </li>
-                    </ul>
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="plan-your-visit.html">Plan Your Visit</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                </ul>
                 </nav>
-            </div>
-            <div id="contacts" class="footer" style="border:1px solid; background-color:#006CB6;">
+            </section>
+            <section id="contacts" class="footer">
                 <h3 style="color:white;">Contact us</h3>
                 <nav id="fpcontactInformation">
                     <ul>
-                        <li id = "email"style="text-align:left;">Email : <a href="https://www.gmail.com" style="background-color:white;">Happyfuntime-team16@gmail.com</a> </li>
-                        <li id = "contactnumber"style="text-align:left;">Contact Number : 012-3456789</li>
-                        <li id = "fax"style="text-align:left;">Fax : 012-1231231</li>
+                        <li id="email">Email :
+                            <a href="https://www.gmail.com">Happyfuntime-team16@gmail.com</a>
+                        </li>
+                        <li id="contactnumber">Contact Number : 012-3456789</li>
+                        <li id="fax">Fax : 012-1231231</li>
                     </ul>
                 </nav>
-            </div>
-            <div id="socialmedia" class="footer" style="border:1px solid; background-color:#F8C706;">
+            </section>
+            <section id="socialmedia" class="footer" style="background-color:#F8C706;">
                 <h3>Follow us on</h3>
                 <nav id="socialmediafooter" class="social-media-links">
-               <span>
-            <a href="https://www.facebook.com"><img src="assets/facebook.png" width="50" height="50"></a>
-            <a href="https://www.twitter.com"><img src="assets/twitter.png" width="50" height="50"></a>
-            <a href="https://www.instagram.com"><img src="assets/instagram.png" width="50" height="50"></a>
-            <a href="https://www.youtube.com"><img src="assets/youtube.png" width="50" height="50"></a>
-            </span>
+                    <span>
+                    <a href="https://www.facebook.com"><img src="assets/facebook.png" class="social-media-links-animation"
+                                                            width="50" height="50"></a>
+                    <a href="https://www.twitter.com"><img src="assets/twitter.png" width="50" height="50"></a>
+                    <a href="https://www.instagram.com"><img src="assets/instagram.png" width="50" height="50"></a>
+                    <a href="https://www.youtube.com"><img src="assets/youtube.png" width="50" height="50"></a>
+                    </span>
                 </nav>
-            </div>
-        </footer> 
+                </div>
+        </footer>
     </body>
 </html>
