@@ -774,3 +774,18 @@ footer .social-media-links > span {
     padding: 20px;
     margin-bottom: 20px;
 }
+
+#specialOffersDiv {
+    height: 553px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#main-offer {
+    height: 100%;
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+
