@@ -846,8 +846,88 @@ footer .social-media-links > span {
 }
 
 
-
 .title-div p {
     color: white;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+#transportations {
+    display: flex;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: center;
+
+}
+
+.transport-type {
+    padding: 20px;
+}
+
+
+#bus {
+    flex: 1;
+    height: auto;
+    width: 300px;
+    display: inline-block;
+    background-color: #F8C706;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: white;
+    border-style: dashed;
+    border-width: 4px;
+
+}
+
+
+#train {
+    flex: 1;
+    height: auto;
+    width: 300px;
+    display: inline-block;
+    background-color: #006CB6;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: white;
+    border-style: dashed;
+    border-width: 4px;
+
+}
+
+#car {
+    flex: 1;
+    height: auto;
+    width: 300px;
+    display: inline-block;
+    background-color: #F8C706;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: white;
+    border-style: dashed;
+    border-width: 4px;
+
+}
+
+#transportations ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#transportations li {
+    color: white;
+}
+
+
+
+
