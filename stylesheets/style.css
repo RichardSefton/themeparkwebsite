@@ -193,7 +193,7 @@ thing as it may be too much*/
     text-align: center;
 }
 
-#bookNow-link2 li {
+.bookNow-link2 li {
 
     display: inline-block;
     margin-top: 20px;

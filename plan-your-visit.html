@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <!-- Metadata - took a wild stab at the team number for the author -->
     <meta charset="UTF-8">
     <!-- for Search engine optimization -->
-    <meta name="description" content="Theme park tickets and offers">
+    <meta name="description" content="The 16 Wonders, there is nowhere more fun than here">
     <meta name="keywords" content="Theme, Park, Tickets, Prices, Offers">
     <meta name="author" content="Web dev team 16">
 
@@ -37,12 +37,13 @@
 </head>
 <body class="main-template">
 <!-- This section contains the header & its information -->
+<!-- This section contains the header & its information -->
 <header>
     <!-- Inside divs for east grid layout later in css -->
     <div id="parkLogoDiv" class="park-logo-div">
         <!-- Image to be placed in assets folder and referenced properly -->
         <a href="index.html">
-            <img src="assets\Logo - Amusement_Park_Edited.png" class="park-logo-img">
+            <img src="assets\Logo - Amusement_Park_Edited.png" class="park-logo-img" alt="Site Logo" alt="Park logo">
         </a>
     </div>
     <div id="parkTitlesDiv" class="park-titles-div">
@@ -50,122 +51,132 @@
         <h2>There is nowhere more fun than here</h2>
     </div>
 </header>
+<main>
+    <!-- Links to Social Media - May be beter in a span? Or inside the header?-->
+    <section id="socialMediaLinksDiv" class="social-media-links">
+        <!-- Not sure if we want images as links or just plain text. I think image links will be better. -->
+        <nav id="socialMediaLinks" class="social-media-links">
+         <span>
+            <a href="https://www.facebook.com" target="_blank"><img src="assets/facebook.png" width="50" height="50" alt="Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="assets/twitter.png" width="50" height="50" alt="Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="assets/instagram.png" width="50" height="50" alt="Instagram"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="assets/youtube.png" width="50" height="50" alt="Youtube"></a>
+         </span>
+        </nav>
+    </section>
 
-<!-- Links to Social Media - May be beter in a span? Or inside the header?-->
-<section id="socialMediaLinksDiv" class="social-media-links">
-    <!-- Not sure if we want images as links or just plain text. I think image links will be better. -->
-    <nav id="socialMediaLinks" class="social-media-links">
-     <span>
-            <a href="https://www.facebook.com"><img src="assets/facebook.png" width="50" height="50"></a>
-            <a href="https://www.twitter.com"><img src="assets/twitter.png" width="50" height="50"></a>
-            <a href="https://www.instagram.com"><img src="assets/instagram.png" width="50" height="50"></a>
-            <a href="https://www.youtube.com"><img src="assets/youtube.png" width="50" height="50"></a>
-            </span>
-    </nav>
-</section>
-
-<section id="titleDiv" class="title-div">
-    <div class="title-container">
-        <h2 style='text-align:center'>Plan Your Visit!</h2>
-        <!-- However we're formatting the content to go in this section can go in here -->
-        <p>Plan your visit to the 16 Wonders with helpful transport information to and around the Park!</p>
-        <p>
-            We are situated in a a remote rural location with the ease of access of a big city! Getting to us
-            could neve be any easier!
-        </p>
-        <p>
-            Wether its for a day, a week or a month, you can plan a trip and take in the park
-            along with the beautiful local countryside.
-        </p>
-        <p>
-            And with restaraunts in the park along with in the local area you will never go hungry or find
-            something you dont want to eat!
-        </p>
-    </div>
-</section>
-
-<section id="page-links" class="no-background page-links">
-    <nav>
-        <ul class="horizontal_menu">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="tickets.html">TICKETS</a></li>
-        </ul>
-    </nav>
-</section>
-
-    
-<section id="transportations" class=transport>
-    <section id="bus">
-        <div id=bus-route class="transport-item-div">
-            <h3 style="color:white;">By Bus</h3>
-        </div>
-        <span>
-                    <div class="text-over-image">
-                        <img src="assets/bus-route.jpg" class="transport-image" alt="bus-route">
-                    </div>
-                </span>
-        <div id="bus-route" class="transport-type">
-            <ul style="color:white;">
-                <li>Guests may take bus number 968 to VivoCity station and trasit to Main entrance of USS via tram. There you can
-                buy tickets at the 16 Wonders attractions' entrance.</li>
-                <b><li> <a style="color:red; font-style:italic; background-color:white;">Bus 968 runs from 7:00 a.m. to 11:30 p.m. everyday.</a> </li></b>
-            </ul>
+    <section id="titleDiv" class="title-div">
+        <div class="title-container">
+            <h2 style='text-align:center'>Plan Your Visit!</h2>
+            <!-- However we're formatting the content to go in this section can go in here -->
+            <p>Plan your visit to the 16 Wonders with helpful transport information to and around the Park!</p>
+            <p>
+                We are situated in a a remote rural location with the ease of access of a big city! Getting to us
+                could neve be any easier!
+            </p>
+            <p>
+                Wether its for a day, a week or a month, you can plan a trip and take in the park
+                along with the beautiful local countryside.
+            </p>
+            <p>
+                And with restaraunts in the park along with in the local area you will never go hungry or find
+                something you dont want to eat!
+            </p>
         </div>
     </section>
-    <section id="train">
-        <div id=train-route class="transport-item-div">
-            <h3>By Train</h3>
-        </div>
-        <span>
-                    <div class="text-over-image">
-                        <img src="assets/train-route.jpg" class="transport-image" alt="train-route">
-                    </div>
-                </span>
-        <div id="train-route" class="transport-type">
+
+    <section id="page-links" class="no-background page-links">
+        <nav>
+            <ul class="horizontal_menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="tickets.html">TICKETS</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <section id="transportations" class=transport>
+        <section id="bus">
+            <div class="transport-item-div">
+                <h3 style="color:white;">By Bus</h3>
+            </div>
+            <div>
+                <img src="assets/bus-route.jpg" class="transport-image" alt="Bus route">
+            </div>
+            <div class="transport-type">
+                <ul style="color:white;">
+                    <li>Guests may take bus number 968 to VivoCity station and trasit to Main entrance of USS via tram.
+                        There you can
+                        buy tickets at the 16 Wonders attractions' entrance.
+                    </li>
+                    <li><a style="color:red; font-style:italic; background-color:white;">Bus 968 runs from 7:00 a.m.
+                        to
+                        11:30 p.m. everyday.</a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <section id="train">
+            <div class="transport-item-div">
+                <h3>By Train</h3>
+            </div>
+            <div>
+                <img src="assets/train-route.jpg" class="transport-image" alt="Train route">
+            </div>
+            <div class="transport-type">
+                <ul>
+                    <li>Take the Green Line to Sentosa station and transit to Orange line at Imbiah lookout.</li>
+                    <li>From there you will reach the entrance to 16 Wonders attractions. You can buy tickets at the
+                        entrance.
+                    </li>
+                    <b>
+                        <li><a style="color:green; font-style:italic; background-color:white;">Green Line runs from 7:00
+                            a.m. to 12:00 a.m. everyday</a></li>
+                    </b>
+                    <li><a style="color:orange; font-style:italic; background-color:white;">Orange Line runs from
+                        7:00
+                        a.m. to 10:30 p.m. everyday</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="car">
+            <div class="transport-item-div">
+                <h3 style="color:white;">By Personal Vehicle</h3>
+            </div>
+            <div>
+                <img src="assets/car-route.jpg" class="transport-image" alt="Car route">
+            </div>
+            <div id="car-route" class="transport-type">
+                <ul style="color:white;">
+                    <li>From the west - Drive along CTE highway until Harbourfront exit.
+                    <li>From there, take the right towards RWS way and you will reach the entrance to the 16 wonders
+                        attractions.<br/><br/></li>
+
+                    <li>From the east - Drive along the Keppel Terminal way and turn at the CTE high way.
+                    <li>Upon reaching Harbourfront exit, turn left towards RWS way and you will reach the entrance to
+                        the 16
+                        wonders attractions.
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+
+
+    <section class="bookNow-link2 no-background page-links">
+        <nav>
             <ul>
-                <li>Take the Green Line to Sentosa station and transit to Orange line at Imbiah lookout.</li>
-                <li>From there you will reach the entrance to 16 Wonders attractions. You can buy tickets at the entrance.</li>
-                <b><li> <a style="color:green; font-style:italic; background-color:white;">Green Line runs from 7:00 a.m. to 12:00 a.m. everyday</a> </li></b>
-                <b><li> <a style="color:orange; font-style:italic; background-color:white;">Orange Line runs from 7:00 a.m. to 10:30 p.m. everyday</a> </li></b>
+                <li><a href=tickets.html>BOOK NOW</a></li>
             </ul>
-        </div>
+        </nav>
     </section>
-    
-    <section id="car">
-        <div id=car-route class="transport-item-div">
-            <h3 style="color:white;">By Personal Vehicle</h3>
-        </div>
-        <span>
-                    <div class="text-over-image">
-                        <img src="assets/car-route.jpg" class="transport-image" alt="car-route">
-                    </div>
-                </span>
-        <div id="car-route" class="transport-type">
-            <ul style="color:white;">
-                <li>From the west - Drive along CTE highway until Harbourfront exit. 
-                <li>From there, take the right towards RWS way and you will reach the entrance to the 16 wonders attractions.<br/><br/></li>
-                
-                <li>From the east - Drive along the Keppel Terminal way and turn at the CTE high way.
-                <li>Upon reaching Harbourfront exit, turn left towards RWS way and you will reach the entrance to the 16 wonders attractions.</li>
-            </ul>
-        </div>
-    </section>
-</section>
-    
 
-<section id="bookNow-link2" class="no-background page-links">
-    <nav>
-        <ul>
-            <li><a href=tickets.html>Book Now</a></li>
-        </ul>
-    </nav>
-</section>
-
-<section id="themeParkMap" class="theme-park-map">
+    <section id="themeParkMap" class="theme-park-map">
             <span>
                 <h2>Map of the park</h2>
                 <ul id="horizontal-list">
-                    <h6>
                         <li><p> <b>1:</b> Round n' Round</p></li>
                         <li><p> <b>2:</b> Thrill Seeker</p></li>
                         <li><p> <b>3:</b> Spinning Cups</p></li>
@@ -177,10 +188,8 @@
                         <li><p> <b>9:</b> Ticket Booth</p></li>
                         <li><p> <b>10:</b> Food Stands</p></li>
                         <li><p> <b>11:</b> Park Festivals</p></li>
-                     </h6>
                 </ul>
                 <div class="shape-over-image">
-                <h5>
                     <div class="shape-over-image-01">
                         <p>1</p>
                     </div>
@@ -214,124 +223,127 @@
                     <div class="shape-over-image-011">
                         <p>11</p>
                     </div>
-                </h5>
                     <img src="assets/themeParkMap.jpg" class="theme-park-image" alt="park map">
                 </div>
             </span>
-</section>
+    </section>
 
-<section id="accomodation">
-    <h2>Where to sleep</h2>
-    <nav>
-        <ul>
-            <li>
-                <div class="text-over-image">
-                    <h3>PARK VIEW HOTEL</h3>
-                    <p>The Amustment Park View guestroom offers fabulous view of the entire 16 Wonders.
-                        <br>
-                        <br>Check the park from the balcony and take a walk to experience the park within 5 minutes!
-                    </p>
-                    <img src="assets/hotel 1.jpg" class="hotel-image" alt="abc hotel">
-                </div>
-            </li>
-            <li>
-                <div class="text-over-image">
-                    <h3>WATER WORLD RESORT</h3>
-                    <p>It is a good time to splash and enjoy the sunlight in the Water World.
-                        <br>
-                        <br>Spend a whole day at a huge poor for the family to get wet and relax!
-                    </p>
-                    <img src="assets/hotel 2.jpg" class="hotel-image" alt="def hotel">
-                </div>
-            </li>
-            <li>
-                <div class="text-over-image">
-                    <h3>FORREST INN</h3>
-                    <p>This is an ideal place to stay your vacation in the vibrant city.
-                        <br>
-                        <br>Nature-inspired, modern design and versatile event rooms are waiting for you!
-                    </p>
-                    <img src="assets/hotel 3.jpg" class="hotel-image" alt="ghi hotel">
-                </div>
-            </li>
-        </ul>
-    </nav>
-</section>
+    <section id="accomodation">
+        <h2>Where to sleep</h2>
+        <nav>
+            <ul>
+                <li>
+                    <div class="text-over-image">
+                        <h3>PARK VIEW HOTEL</h3>
+                        <p>The Amustment Park View guestroom offers fabulous view of the entire 16 Wonders.
+                            <br>
+                            <br>Check the park from the balcony and take a walk to experience the park within 5 minutes!
+                        </p>
+                        <img src="assets/hotel 1.jpg" class="hotel-image" alt="abc hotel">
+                    </div>
+                </li>
+                <li>
+                    <div class="text-over-image">
+                        <h3>WATER WORLD RESORT</h3>
+                        <p>It is a good time to splash and enjoy the sunlight in the Water World.
+                            <br>
+                            <br>Spend a whole day at a huge poor for the family to get wet and relax!
+                        </p>
+                        <img src="assets/hotel 2.jpg" class="hotel-image" alt="def hotel">
+                    </div>
+                </li>
+                <li>
+                    <div class="text-over-image">
+                        <h3>FORREST INN</h3>
+                        <p>This is an ideal place to stay your vacation in the vibrant city.
+                            <br>
+                            <br>Nature-inspired, modern design and versatile event rooms are waiting for you!
+                        </p>
+                        <img src="assets/hotel 3.jpg" class="hotel-image" alt="ghi hotel">
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </section>
 
-<section id="bookNow-link2" class="no-background page-links">
-    <nav>
-        <ul>
-            <li><a href=tickets.html>Book Now</a></li>
-        </ul>
-    </nav>
-</section>
+    <section class="bookNow-link2 no-background page-links">
+        <nav>
+            <ul>
+                <li><a href=tickets.html>BOOK NOW</a></li>
+            </ul>
+        </nav>
+    </section>
 
-<section id="dining">
-    <h2>Where to eat</h2>
-    <nav>
-        <ul>
-            <li>
-                <div class="text-over-image">
-                    <h3>SPORTY BAR</h3>
-                    <p>Chill and savour a delicious drink combines with a variety of sport on live TV.
-                        <br>
-                        <br>Come enjoy the atmosphere as you sit back and take a break from the park adventures!
-                    </p>
-                    <img src="assets/restaurant 1.jpg" class="restaurant-image" alt="English restaurant">
-                </div>
-            </li>
-            <li>
-                <div class="text-over-image">
-                    <h3>CANTON ASSEMBLY</h3>
-                    <p>Dim sum, barbecued Siu Mei and various Asian cuisines are served.
-                        <br>
-                        <br>This is a place to satisfy your hunger while watching the fantastic views of the aquarium!
-                    </p>
-                    <img src="assets/restaurant 2.jpg" class="restaurant-image" alt="Chinese restaurant">
-                </div>
-            </li>
-            <li>
-                <div class="text-over-image">
-                    <h3>BRILLIANT ITALIANO</h3>
-                    <p>Italian cuisine are offered, including pizzas, pastas and desserts.
-                        <br>
-                        <br>Enjoy the unforgettable family recipes with authentic Italian cooking at an attractive
-                        price!
-                    </p>
-                    <img src="assets/restaurant 3.jpg" class="restaurant-image" alt="Italian restaurant">
-                </div>
-            </li>
-        </ul>
-    </nav>
-</section>
+    <section id="dining">
+        <h2>Where to eat</h2>
+        <nav>
+            <ul>
+                <li>
+                    <div class="text-over-image">
+                        <h3>SPORTY BAR</h3>
+                        <p>Chill and savour a delicious drink combines with a variety of sport on live TV.
+                            <br>
+                            <br>Come enjoy the atmosphere as you sit back and take a break from the park adventures!
+                        </p>
+                        <img src="assets/restaurant 1.jpg" class="restaurant-image" alt="English restaurant">
+                    </div>
+                </li>
+                <li>
+                    <div class="text-over-image">
+                        <h3>CANTON ASSEMBLY</h3>
+                        <p>Dim sum, barbecued Siu Mei and various Asian cuisines are served.
+                            <br>
+                            <br>This is a place to satisfy your hunger while watching the fantastic views of the
+                            aquarium!
+                        </p>
+                        <img src="assets/restaurant 2.jpg" class="restaurant-image" alt="Chinese restaurant">
+                    </div>
+                </li>
+                <li>
+                    <div class="text-over-image">
+                        <h3>BRILLIANT ITALIANO</h3>
+                        <p>Italian cuisine are offered, including pizzas, pastas and desserts.
+                            <br>
+                            <br>Enjoy the unforgettable family recipes with authentic Italian cooking at an attractive
+                            price!
+                        </p>
+                        <img src="assets/restaurant 3.jpg" class="restaurant-image" alt="Italian restaurant">
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </section>
 
-<section id="specialNeeds" style='text-align: center'>
-    <div class="disabled-container">
-        <h2>Special needs access</h2>
-        <p>Guests with any type of disability can have a great time at the 16 Wonders. Assistance for special needs is
-            offered from the park's Guest Service centers, found near both the South and the North Entrance.</p>
-        <p>Are car parks have disabled parking and ramps lifts are provided as an alternative to starts. If you have a
-            carer they can also access the park free of charge!</p>
-    </div>
-</section>
+    <section id="specialNeeds" style='text-align: center'>
+        <div class="disabled-container">
+            <h2>Special needs access</h2>
+            <p>Guests with any type of disability can have a great time at the 16 Wonders. Assistance for special needs
+                is
+                offered from the park's Guest Service centers, found near both the South and the North Entrance.</p>
+            <p>Are car parks have disabled parking and ramps lifts are provided as an alternative to starts. If you have
+                a
+                carer they can also access the park free of charge!</p>
+        </div>
+    </section>
 
-<section id="bookNow-link2" class="no-background page-links">
-    <nav>
-        <ul>
-            <li><a href=tickets.html>Book Now</a></li>
-        </ul>
-    </nav>
-</section>
+    <section id="bookNow-link2" class="no-background page-links">
+        <nav>
+            <ul>
+                <li><a href=tickets.html>BOOK NOW</a></li>
+            </ul>
+        </nav>
+    </section>
+</main>
 
 <footer>
     <section id="section" class="footer" style="background-color:#F8C706;">
         <h3>Sections</h3>
-        <nav id="sectionsfooter" class="section-links"></nav>
-        <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="plan-your-visit.html">Plan Your Visit</a></li>
-            <li><a href="tickets.html">Tickets</a></li>
-        </ul>
+        <nav id="sectionsfooter" class="section-links">
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="plan-your-visit.html">Plan Your Visit</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+            </ul>
         </nav>
     </section>
     <section id="contacts" class="footer">
@@ -341,7 +353,7 @@
                 <li id="email">Email :
                     <a href="https://www.gmail.com">Happyfuntime-team16@gmail.com</a>
                 </li>
-                <li id="contactnumber">Contact Number : 012-3456789</li>
+                <li id="contactnumber">Contact Number : <a href="tel:0123456789">012-3456789</a></li>
                 <li id="fax">Fax : 012-1231231</li>
             </ul>
         </nav>
@@ -349,14 +361,13 @@
     <section id="socialmedia" class="footer" style="background-color:#F8C706;">
         <h3>Follow us on</h3>
         <nav id="socialmediafooter" class="social-media-links">
-                    <span>
-                    <a href="https://www.facebook.com"><img src="assets/facebook.png"
-                                                            class="social-media-links-animation"
-                                                            width="50" height="50"></a>
-                    <a href="https://www.twitter.com"><img src="assets/twitter.png" width="50" height="50"></a>
-                    <a href="https://www.instagram.com"><img src="assets/instagram.png" width="50" height="50"></a>
-                    <a href="https://www.youtube.com"><img src="assets/youtube.png" width="50" height="50"></a>
-                    </span>
+            <span>
+            <a href="https://www.facebook.com" target="_blank"><img src="assets/facebook.png" class="social-media-links-animation"
+                                                    width="50" height="50" alt="Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="assets/twitter.png" width="50" height="50" alt="Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="assets/instagram.png" width="50" height="50" alt="Instagram"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="assets/youtube.png" width="50" height="50" alt="Youtube"></a>
+            </span>
         </nav>
     </section>
 </footer>

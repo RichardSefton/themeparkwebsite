@@ -4,7 +4,7 @@
     <!-- Metadata - took a wild stab at the team number for the author -->
     <meta charset="UTF-8">
     <!-- for Search engine optimization -->
-    <meta name="description" content="Theme park tickets and offers">
+    <meta name="description" content="The 16 Wonders, there is nowhere more fun than here">
     <meta name="keywords" content="Theme, Park, Tickets, Prices, Offers">
     <meta name="author" content="Web dev team 16">
 
@@ -51,158 +51,162 @@
         <h2>There is nowhere more fun than here</h2>
     </div>
 </header>
+<main>
+    <!-- Links to Social Media - May be beter in a span? Or inside the header?-->
+    <section id="socialMediaLinksDiv" class="social-media-links">
+        <!-- Not sure if we want images as links or just plain text. I think image links will be better. -->
+        <nav id="socialMediaLinks" class="social-media-links">
+         <span>
+            <a href="https://www.facebook.com" target="_blank"><img src="assets/facebook.png" width="50" height="50" alt="Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="assets/twitter.png" width="50" height="50" alt="Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="assets/instagram.png" width="50" height="50" alt="Instagram"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="assets/youtube.png" width="50" height="50" alt="Youtube"></a>
+         </span>
+        </nav>
+    </section>
 
-<!-- Links to Social Media - May be beter in a span? Or inside the header?-->
-<section id="socialMediaLinksDiv" class="social-media-links">
-    <!-- Not sure if we want images as links or just plain text. I think image links will be better. -->
-    <nav class="social-media-links">
-        <span>
-        <a href="https://www.facebook.com"><img src="assets/facebook.png" width="50" height="50" alt="Facebook"></a>
-        <a href="https://www.twitter.com"><img src="assets/twitter.png" width="50" height="50" alt="Twitter"></a>
-        <a href="https://www.instagram.com"><img src="assets/instagram.png" width="50" height="50" alt="Instagram"></a>
-        <a href="https://www.youtube.com"><img src="assets/youtube.png" width="50" height="50" alt="Youtube"></a>
-        </span>
-    </nav>
-</section>
-
-<!-- Page Title -->
-<section id="titleDiv" class="title-div">
-    <div class="title-container">
-        <h2 style='text-align:center'>Tickets and Special Offers!</h2>
-        <!-- However we're formatting the content to go in this section can go in here -->
-        <p>Please see below for our latest and greatest deals we have on offer.</p>
-        <p>
-            All our deals are specially crafted so you can feel like you have acheived value for money
-            while visitig our park.
-        </p>
-        <p>
-            You can spend time browsing this site but only by visiting the park will you get to
-            experience our exotic wildlife exhibitions. Or dine in one of our exlusive restaraunts.
-            Our ethos is to leave you with a great experience at our park.
-        </p>
-        <p>
-            So come on. Browse our deals. Find the best one that works for you and enjoy a fun day out
-        </p>
-    </div>
-</section>
-
-<section id="page-links" class="no-background page-links">
-    <nav>
-        <ul class="horizontal_menu">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="plan-your-visit.html">PLAN YOUR VISIT</a></li>
-        </ul>
-    </nav>
-</section>
-
-<!-- Specail offers. In mosaic format -->
-
-<section id="offers">
-
-    <div id="main-offer" class="offer">
-        <div class="offer-container">
-            <div class="offer-description">
-                <div class="text-over-image">
-                    <h2>Half price water slides in December!</h2>
-                    <img src="assets/waterslide.jpg" class="main-offer-image" alt="waterslide image">
-                    <p>*on select slides only*</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="secondary-offers" class="offer">
-
-        <div class="offer-container">
-            <div class="offer-description secondary-offer">
-                <div class="text-over-image">
-                    <h3>Free fruit for kids with family tickets!</h3>
-                    <img src="assets/fruit.jpg" class="sub-offer-image" alt="Fruit">
-                    <p>*Tickets are one-time use only and non-refundable*</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="offer-container">
-            <div class="offer-description secondary-offer">
-                <div class="text-over-image">
-                    <h3>Spooky Halloween Festival</h3>
-                    <img src="assets/halloween.jpg" class="sub-offer-image" alt="halloween">
-                    <p>*A toe-curling festival experience, free of charge!*</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-
-<section id="bookNow-link3" class="no-background page-links">
-    <nav>
-        <ul>
-            <li><a href=plan-your-visit.html>PLAN YOUR VISIT</a></li>
-        </ul>
-    </nav>
-</section>
-
-<!-- this is where i start (YE KO MYIINT) -->
-<section id="ticketdescriptions" class=tickets>
-    <section id="tblOne">
-        <div id=onedayticket class="tickets-items-div">
-            <h3 style="color:white;">One Day Ticket</h3>
-        </div>
-        <div class="text-over-image">
-            <img src="assets/onedayticket.jpg" class="ticket-image" alt="onedayticket">
-            <p>Regular-priced ticket is valid for one day, on the selected date of visit</p>
-        </div>
-        <div class="ticket-type">
-            <ul style="color:white;">
-                <li>Inclusive of all rides and attractions</li>
-                <li>Non-inclusive of the privilege to take pictures with cosplayers and characters.</li>
-                <li>Adult(Age 13-59) - £50</li>
-                <li>Child(Age 4-12) - £30</li>
-                <li>Senior(Age 60 and above) - £20</li>
-            </ul>
+    <!-- Page Title -->
+    <section id="titleDiv" class="title-div">
+        <div class="title-container">
+            <h2 style='text-align:center'>Tickets and Special Offers!</h2>
+            <!-- However we're formatting the content to go in this section can go in here -->
+            <p>Please see below for our latest and greatest deals we have on offer.</p>
+            <p>
+                All our deals are specially crafted so you can feel like you have acheived value for money
+                while visitig our park.
+            </p>
+            <p>
+                You can spend time browsing this site but only by visiting the park will you get to
+                experience our exotic wildlife exhibitions. Or dine in one of our exlusive restaraunts.
+                Our ethos is to leave you with a great experience at our park.
+            </p>
+            <p>
+                So come on. Browse our deals. Find the best one that works for you and enjoy a fun day out
+            </p>
         </div>
     </section>
-    <section id="tblTwo">
-        <div class="tickets-items-div">
-            <h3>Student Pass</h3>
+
+    <section id="page-links" class="no-background page-links">
+        <nav>
+            <ul class="horizontal_menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="plan-your-visit.html">PLAN YOUR VISIT</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- Specail offers. In mosaic format -->
+
+    <section id="offers">
+
+        <div id="main-offer" class="offer">
+            <div class="offer-container">
+                <div class="offer-description">
+                    <div class="text-over-image">
+                        <h2>Half price water slides in December!</h2>
+                        <img src="assets/waterslide.jpg" class="main-offer-image" alt="waterslide image">
+                        <p>*on select slides only*</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="text-over-image">
-            <img src="assets/studentpass.jpg" class="ticket-image" alt="studentpass">
-            <p>6 months of unlimited admission for students</p>
+
+        <div id="secondary-offers" class="offer">
+
+            <div class="offer-container">
+                <div class="offer-description secondary-offer">
+                    <div class="text-over-image">
+                        <h3>Free fruit for kids with family tickets!</h3>
+                        <img src="assets/fruit.jpg" class="sub-offer-image" alt="Fruit">
+                        <p>*Tickets are one-time use only and non-refundable*</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offer-container">
+                <div class="offer-description secondary-offer">
+                    <div class="text-over-image">
+                        <h3>Spooky Halloween Festival</h3>
+                        <img src="assets/halloween.jpg" class="sub-offer-image" alt="halloween">
+                        <p>*A toe-curling festival experience, free of charge!*</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div id="studentpass" class="ticket-type">
+    </section>
+
+
+    <section id="bookNow-link3" class="no-background page-links">
+        <nav>
             <ul>
-                <li>Inclusive of all rides, attractions and privilege to take photos with cosplayers and characters</li>
-                <li>6 months expiry date (starts from date of purchase)</li>
-                <li>Price - £80</li>
-                <li><a style="color:red; font-style:italic; background-color:white;"> NOTE: Students must show their
-                    student identification card and the student pass at the entrance.</a></li>
+                <li><a href=plan-your-visit.html>PLAN YOUR VISIT</a></li>
             </ul>
-        </div>
+        </nav>
     </section>
-    <section id="tblThree">
-        <div id=annualpass class="tickets-items-div">
-            <h3 style="color:white;">Annual Pass</h3>
-        </div>
-        <div class="text-over-image">
-            <img src="assets/annualpass.jpg" class="ticket-image" alt="studentpass">
-            <p>12 months of unlimited admission!</p>
-        </div>
-        <div class="ticket-type">
-            <ul style="color:white;">
-                <li>Inclusive of all rides, attractions and privilege to take photos with cosplayers and characters</li>
-                <li>12 months expiry date (starts from date of purchase)</li>
-                <li>Adult(Age 13-59) - £200</li>
-                <li>Child(Age 4-12) - £120</li>
-                <li>Senior(Age 60 and above) - £80</li>
-            </ul>
-        </div>
-    </section>
-</section>
 
+    <!-- this is where i start (YE KO MYIINT) -->
+    <section id="ticketdescriptions" class=tickets>
+        <section id="tblOne">
+            <div id=onedayticket class="tickets-items-div">
+                <h3 style="color:white;">One Day Ticket</h3>
+            </div>
+            <div class="text-over-image">
+                <img src="assets/onedayticket.jpg" class="ticket-image" alt="onedayticket">
+                <p>Regular-priced ticket is valid for one day, on the selected date of visit</p>
+            </div>
+            <div class="ticket-type">
+                <ul style="color:white;">
+                    <li>Inclusive of all rides and attractions</li>
+                    <li>Non-inclusive of the privilege to take pictures with cosplayers and characters.</li>
+                    <li>Adult(Age 13-59) - £50</li>
+                    <li>Child(Age 4-12) - £30</li>
+                    <li>Senior(Age 60 and above) - £20</li>
+                </ul>
+            </div>
+        </section>
+        <section id="tblTwo">
+            <div class="tickets-items-div">
+                <h3>Student Pass</h3>
+            </div>
+            <div class="text-over-image">
+                <img src="assets/studentpass.jpg" class="ticket-image" alt="studentpass">
+                <p>6 months of unlimited admission for students</p>
+            </div>
+            <div id="studentpass" class="ticket-type">
+                <ul>
+                    <li>Inclusive of all rides, attractions and privilege to take photos with cosplayers and
+                        characters
+                    </li>
+                    <li>6 months expiry date (starts from date of purchase)</li>
+                    <li>Price - £80</li>
+                    <li><a style="color:red; font-style:italic; background-color:white;"> NOTE: Students must show their
+                        student identification card and the student pass at the entrance.</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="tblThree">
+            <div id=annualpass class="tickets-items-div">
+                <h3 style="color:white;">Annual Pass</h3>
+            </div>
+            <div class="text-over-image">
+                <img src="assets/annualpass.jpg" class="ticket-image" alt="studentpass">
+                <p>12 months of unlimited admission!</p>
+            </div>
+            <div class="ticket-type">
+                <ul style="color:white;">
+                    <li>Inclusive of all rides, attractions and privilege to take photos with cosplayers and
+                        characters
+                    </li>
+                    <li>12 months expiry date (starts from date of purchase)</li>
+                    <li>Adult(Age 13-59) - £200</li>
+                    <li>Child(Age 4-12) - £120</li>
+                    <li>Senior(Age 60 and above) - £80</li>
+                </ul>
+            </div>
+        </section>
+    </section>
+</main>
 <footer>
     <section id="section" class="footer" style="background-color:#F8C706;">
         <h3>Sections</h3>
@@ -230,11 +234,11 @@
         <h3>Follow us on</h3>
         <nav id="socialmediafooter" class="social-media-links">
             <span>
-            <a href="https://www.facebook.com"><img src="assets/facebook.png" class="social-media-links-animation"
-                                                    width="50" height="50" alt="Facebook"></a>
-            <a href="https://www.twitter.com"><img src="assets/twitter.png" width="50" height="50" alt="Twitter"></a>
-            <a href="https://www.instagram.com"><img src="assets/instagram.png" width="50" height="50" alt="Instagram"></a>
-            <a href="https://www.youtube.com"><img src="assets/youtube.png" width="50" height="50" alt="Youtube"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="assets/facebook.png" class="social-media-links-animation"
+                                                                    width="50" height="50" alt="Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="assets/twitter.png" width="50" height="50" alt="Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="assets/instagram.png" width="50" height="50" alt="Instagram"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="assets/youtube.png" width="50" height="50" alt="Youtube"></a>
             </span>
         </nav>
     </section>
