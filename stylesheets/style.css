@@ -8,14 +8,15 @@ ul {
     text-align: center;
 }
 
-ul#horizontal-list{
+ul#horizontal-list {
     width: 450px;
     display: inline-block;
     margin-left: 150px;
     margin-right: 5px;
     margin-top: 0px;
 }
-ul#horizontal-list li{
+
+ul#horizontal-list li {
     list-style-type: none;
 
 }
@@ -27,7 +28,7 @@ ul#horizontal-list li{
     background-color: #006CB6;
 }
 
-.main-template > section {
+.main-template section {
     background-color: #F8C706;
     color: black;
 }
@@ -240,12 +241,12 @@ thing as it may be too much*/
 
 #other-rides ul li {
     display: inline-block;
-  /*  padding: 35px;  /*
-    position: relative;
-  /*  top: 80px;
-    right: 10px;
-    left: 100px;
-    margin-bottom: 100px;  */
+    /*  padding: 35px;  /*
+      position: relative;
+    /*  top: 80px;
+      right: 10px;
+      left: 100px;
+      margin-bottom: 100px;  */
     width: 49.85%;
     height: 20%;
 
@@ -268,7 +269,7 @@ thing as it may be too much*/
 
 .title-container p:nth-child(even) {
     background-color: #F8C706;
-    padding:12px;
+    padding: 12px;
     font-weight: bolder;
     font-size: 1.1em;
     color: black;
@@ -277,7 +278,7 @@ thing as it may be too much*/
 
 .disabled-container {
     background-color: #F8C706;
-    padding:12px;
+    padding: 12px;
     font-weight: bolder;
     font-size: 1.1em;
     color: black;
@@ -406,7 +407,7 @@ h6 {
     z-index: 1;
     text-align: center;
     color: white;
-   /* width: 100%; */
+    /* width: 100%; */
     opacity: 0;
     transition: 250ms;
 
@@ -492,8 +493,7 @@ h6 {
 .shape-over-image {
     display: inline-block;
     position: relative;
-    width:500px;
-
+    width: 500px;
 }
 
 .shape-over-image img {
@@ -501,7 +501,7 @@ h6 {
     height: 100%;
 }
 
-.shape-over-image-style{
+.shape-over-image-style {
     position: absolute;
     background-color: black;
 }
@@ -512,89 +512,90 @@ h6 {
     left: 15%;
     transform: translate(-50%, -50%);
     background-color: white;
-  }
+}
 
-  .shape-over-image-02 {
+.shape-over-image-02 {
     position: absolute;
     top: 15%;
     left: 65%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .shape-over-image-03 {
+.shape-over-image-03 {
     position: absolute;
     top: 30%;
     left: 49%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .shape-over-image-04 {
+.shape-over-image-04 {
     position: absolute;
     top: 40%;
     left: 80%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .shape-over-image-05 {
+.shape-over-image-05 {
     position: absolute;
     top: 57%;
     left: 15%;
     transform: translate(-50%, -50%);
-  }
+}
 
 .shape-over-image-06 {
     position: absolute;
     top: 55%;
     left: 49%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .shape-over-image-07 {
+.shape-over-image-07 {
     position: absolute;
     top: 57%;
     left: 83%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .shape-over-image-08 {
+.shape-over-image-08 {
     position: absolute;
     top: 80%;
     left: 13%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .shape-over-image-09 {
+.shape-over-image-09 {
     position: absolute;
     top: 80%;
     left: 29%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .shape-over-image-010 {
+.shape-over-image-010 {
     position: absolute;
     top: 73%;
     left: 69%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .shape-over-image-011 {
+.shape-over-image-011 {
     position: absolute;
     top: 78%;
     left: 87%;
     transform: translate(-50%, -50%);
-  }
+}
 
 .shape-over-image p {
     position: absolute;
     background-color: beige;
     color: black;
-    padding-left: 10px;
-    padding-right: 20px;
     border-radius: 50%;
     width: 100%;
     opacity: 1;
     transition: 250ms;
-    padding-left: 10px;
+    padding-right: 24px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 #accomodation {
@@ -852,14 +853,6 @@ footer .social-media-links > span {
 }
 
 
-
-
-
-
-
-
-
-
 #transportations {
     display: flex;
     padding: 5px;
@@ -927,6 +920,29 @@ footer .social-media-links > span {
 #transportations li {
     color: white;
 }
+
+#themeParkMap {
+    padding: 10px;
+    margin: 10px;
+}
+
+#themeParkMap h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#parkMapImage {
+    display: inline-block;
+    padding-left: 35%;
+}
+
+#parkMapLegend {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+
 
 
 
