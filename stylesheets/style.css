@@ -1,4 +1,4 @@
-ul {
+2ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -774,7 +774,8 @@ footer .social-media-links > span {
     margin-bottom: 20px;
 }
 
-#specialOffersDiv {
+
+#offers {
     height: 553px;
     overflow: hidden;
     margin-bottom: 20px;
@@ -787,4 +788,32 @@ footer .social-media-links > span {
     position: relative;
 }
 
+#main-offer div.offer-container {
+    position: relative;
+    height: 100%;
+}
 
+#secondary-offers {
+    float: right;
+    width: 50%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+#offers .text-over-image {
+    height: 100%;
+}
+
+#offers .text-over-image p {
+    width: auto;
+}
+
+#secondary-offers div.offer-container {
+    position: relative;
+    height: 50%;
+}
+
+.offer-description {
+    height: 100%;
+}
