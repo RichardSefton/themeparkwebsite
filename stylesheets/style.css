@@ -417,7 +417,10 @@ h6 {
 }
 
 .text-over-image h2 {
-    width: 100%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 40px;
 }
 
 .text-over-image p {
@@ -825,10 +828,6 @@ footer .social-media-links > span {
     height: 100%;
 }
 
-#offers .text-over-image p {
-    width: auto;
-}
-
 #secondary-offers div.offer-container {
     position: relative;
     height: 50%;
@@ -837,7 +836,6 @@ footer .social-media-links > span {
 .offer-description {
     height: 100%;
 }
-
 
 .title-container {
     /* padding: 50px; */
