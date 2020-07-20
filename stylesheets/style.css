@@ -4,6 +4,47 @@ ul {
     padding: 0;
 }
 
+li {
+    font-size: 1em;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: normal;
+    font-size: 4.5em;
+    color: white;
+}
+
+h2 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3em;
+    color: white;
+}
+
+h3 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2em;
+    color: white;
+}
+
+h4 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.0em;
+    color: white;
+}
+
+h5 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5em;
+    color: white;
+}
+
+h6 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.2em;
+    color: black;
+}
+
 .page-title {
     text-align: center;
 }
@@ -81,8 +122,6 @@ header {
  */
 section.no-background {
     background-color: unset;
-    /* margin: 10px;
-    padding: 0; */
 }
 
 .page-links ul {
@@ -99,8 +138,6 @@ section.no-background {
     background-color: #D01114;
     padding: 5px;
     text-align: center;
-    /* text-align: center; */
-
     /* Need the animation back from hover */
     transition: background-color 500ms ease;
 }
@@ -112,11 +149,7 @@ Cant seem to have scale and the shake animation at the same time. Not necessaril
 thing as it may be too much*/
 .page-links ul li:hover {
     background-color: #109710;
-    /* transform: scale(2); */
-    /* scale needs fixing */
     transition: background-color 500ms ease;
-    /* transition-delay: 500ms ease; */
-    /* shake animation */
     animation: shake 1s;
     animation-iteration-count: infinite;
 }
@@ -125,10 +158,6 @@ thing as it may be too much*/
     color: white;
     font-size: 2em;
     text-decoration: none;
-    /* display: block;
-    padding: 40px;
-    width: 100%;
-    height: 100%; */
 }
 
 /**
@@ -209,19 +238,13 @@ thing as it may be too much*/
 
 .bookNow-link p a {
     color: white;
-    /* font-size: 2em; */
     text-decoration: none;
-    /* display: block;
-    padding: 40px;
-    width: 100%;
-    height: 100%; */
 }
 
 /**
  * Rides styles
  */
 #rides {
-    /* height: 600px; */
     color: white;
 }
 
@@ -241,20 +264,9 @@ thing as it may be too much*/
 
 #other-rides ul li {
     display: inline-block;
-    /*  padding: 35px;  /*
-      position: relative;
-    /*  top: 80px;
-      right: 10px;
-      left: 100px;
-      margin-bottom: 100px;  */
     width: 49.85%;
     height: 20%;
 
-}
-
-.park-logo-img {
-    /* height: 100px !important;
-    width: 100px !important; */
 }
 
 .title-container p:nth-child(odd) {
@@ -263,8 +275,6 @@ thing as it may be too much*/
     font-weight: bolder;
     font-size: 1.1em;
     background-color: #109710;
-
-    /* font-size: 16pt; */
 }
 
 .title-container p:nth-child(even) {
@@ -273,7 +283,6 @@ thing as it may be too much*/
     font-weight: bolder;
     font-size: 1.1em;
     color: black;
-    /* font-size: 15pt; */
 }
 
 .disabled-container {
@@ -286,27 +295,6 @@ thing as it may be too much*/
     border-style: dashed;
     border-width: 4px;
     padding: 10px
-    /* font-size: 15pt; */
-}
-
-.main-offer-image {
-    /* width: 50% !important */
-}
-
-.sub-offer-image {
-    /* width: 25% !important */
-}
-
-li {
-    font-size: 1em;
-
-}
-
-.ticket-image {
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%; */
 }
 
 .social-media-links > span {
@@ -318,16 +306,6 @@ li {
 
 }
 
-/* animation to make the currently hovered social media pop slightly */
-/* .social-media-links-animation {
-    transition: transform 500ms ease;
-}
-
-.social-media-links-animation:hover {
-    transform: translate(0px,-25px);
-    transition: transform 500ms ease;
-} */
-
 .social-media-links > span a img {
     transition: transform 500ms ease;
 }
@@ -337,61 +315,10 @@ li {
     transition: transform 500ms ease;
 }
 
-.ticket-image {
-    /* height: auto;
-    width: auto; */
-}
-
-.hotel-image {
-    /* width: 50% !important */
-}
-
-.restaurant-image {
-    /* width: 50% !important */
-}
-
-h1 {
-    font-family: 'Architects Daughter', cursive;
-    font-weight: normal;
-    font-size: 4.5em;
-    color: white;
-}
-
-h2 {
-    font-family: 'Architects Daughter', cursive;
-    font-size: 3em;
-    color: white;
-}
-
-h3 {
-    font-family: 'Architects Daughter', cursive;
-    font-size: 2em;
-    color: white;
-}
-
-h4 {
-    font-family: 'Architects Daughter', cursive;
-    font-size: 1.0em;
-    color: white;
-}
-
-h5 {
-    font-family: 'Architects Daughter', cursive;
-    font-size: 1.5em;
-    color: white;
-}
-
-h6 {
-    font-family: 'Architects Daughter', cursive;
-    font-size: 1.2em;
-    color: black;
-}
-
 .text-over-image {
     margin: 1px;
     position: relative;
     overflow: hidden;
-    /* transform: scale(1.05); */
 }
 
 .text-over-image img {
@@ -727,20 +654,14 @@ footer section ul li a {
 .slideshow-container {
     max-width: 100%;
     position: relative;
-    /* margin: auto; */
-    /* height: 732 !important; */
 }
 
 .mySlides {
     display: none;
-    /* height: 732px; */
 }
 
 .mySlides img {
-    /* max-width: 100%; */
-    /* height: 732px !important; */
     width: 100% !important;
-    /* position: relative; */
 }
 
 /* The dots/bullets/indicators */
